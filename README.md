@@ -52,6 +52,9 @@
 
 TBD
 
+If you use the code or dataset please cite our work:
+VoiceCookingAssistant. 2021. Audio-Visual-Cooking-Assistant. https://github.com/VoiceCookingAssistant/Audio-Visual-Cooking-Assistant
+
 ### Built With
 
 Inititally the frontend application is built with svelte and has a node server which serves as a middleware to the Rhasspy instance.
@@ -61,8 +64,6 @@ Inititally the frontend application is built with svelte and has a node server w
 - [Rhasspy](https://rhasspy.readthedocs.io/en/latest/)
 
 ## Getting started
-
----
 
 ### Prerequisites
 
@@ -116,10 +117,6 @@ You should see your app running. Edit a component file in `src`, save it, and re
 <br />
 <br />
 
----
-
-<br />
-
 ### 2. Connect Application with local Rhasspy Environment
 
 To run a local Rhasspy Envrionemnt you need to have docker and docker-compose installed.
@@ -164,8 +161,6 @@ This version expects an .env file in root directory with follwing content:
 Navigate to [localhost:5000](http://localhost:5000). You see your app running.
 
 ## Recommendations
-
----
 
 If you're using [Visual Studio Code](https://code.visualstudio.com/) we recommend installing the official extension [Svelte for VS Code](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode). If you are using other editors you may need to install a plugin in order to get syntax highlighting and intellisense.
 
