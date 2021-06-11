@@ -1,0 +1,5 @@
+/node_modules/
+stream.wav
+result.wav
+.DS_Store
+.env

@@ -1,0 +1,27 @@
+version: '3.5'
+services:
+  frontend:
+    build:
+      context: ./frontend
+      target: dev
+    ports:
+      - '5000:5000'
+      - '35729:35729'
+    volumes:
+      - ./frontend/:/src/app
+    restart: always
+  node-server:
+    build:
+      context: ./server
+      target: dev
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./server/:/src/app
+    restart: always
+    networks:
+      - rhasspy_network_external
+
+networks:
+  rhasspy_network_external:
+    external: true

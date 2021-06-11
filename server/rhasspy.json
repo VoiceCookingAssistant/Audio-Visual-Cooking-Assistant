@@ -1,0 +1,31 @@
+{
+    "command": {
+        "webrtcvad": {
+            "vad_mode": "3"
+        }
+    },
+    "dialogue": {
+        "system": "rhasspy"
+    },
+    "intent": {
+        "system": "fsticuffs"
+    },
+    "microphone": {
+        "system": "hermes"
+    },
+    "sounds": {
+        "system": "hermes"
+    },
+    "speech_to_text": {
+        "system": "kaldi"
+    },
+    "text_to_speech": {
+        "system": "nanotts"
+    },
+    "wake": {
+        "porcupine": {
+            "keyword_path": "porcupine_linux.ppn"
+        },
+        "system": "porcupine"
+    }
+}

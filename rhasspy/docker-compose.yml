@@ -1,0 +1,23 @@
+version: '3.5'
+services:
+  rhasspy:
+    image: 'rhasspy/rhasspy'
+    container_name: rhasspy
+    restart: unless-stopped
+    volumes:
+      - '$HOME/.config/rhasspy/profiles:/profiles'
+      - '/etc/localtime:/etc/localtime:ro'
+      - '~/.config/pulse:/home/pulseaudio/.config/pulse'
+    ports:
+      - '12101:12101'
+      - '12183:12183'
+    environment:
+      - PULSE_SERVER=host.docker.internal
+    command: --user-profiles /profiles --profile en
+    networks:
+      - rhasspy_network
+
+networks:
+  rhasspy_network:
+    driver: bridge
+    name: rhasspy_network_external
