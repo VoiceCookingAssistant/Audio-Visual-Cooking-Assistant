@@ -52,6 +52,9 @@
 
 TBD
 
+If you use the code or dataset please cite our work:
+VoiceCookingAssistant. 2021. Audio-Visual-Cooking-Assistant. https://github.com/VoiceCookingAssistant/Audio-Visual-Cooking-Assistant
+
 ### Built With
 
 Inititally the frontend application is built with svelte and has a node server which serves as a middleware to the Rhasspy instance.
