@@ -19,16 +19,17 @@
         if (!slots) {
           console.log('NOT RECOGNISED');
         } else {
-          let answer = slots[0].value.value;
+          let answer = slots[0].value.value.toLowerCase();
           topic = 'hermes/dialogueManager/endSession';
           setActiveToFalse($images, screenId);
-          if (answer == 'yes') {
+          console.log(answer);
+          if (answer.includes('yes')) {
             text =
               'Okay I canceled the recipe and you are now back on the menu.';
             $images.home.active = true;
             currRecipeStep.reset();
             currRecipe.set(null);
-          } else {
+          } else if (answer.includes('no')) {
             if ($currRecipeStep > 0) {
               $currRecipe.steps[$currRecipeStep - 1].active = true;
             } else {
