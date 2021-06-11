@@ -1,0 +1,46 @@
+{
+  "command": {
+    "webrtcvad": {
+      "vad_mode": "3"
+    }
+  },
+  "dialogue": {
+    "system": "rhasspy"
+  },
+  "intent": {
+    "rasa": {
+      "config_yaml": "rasa_conf.yml",
+      "url": "RasaNLUserver"
+    },
+    "system": "rasa"
+  },
+  "microphone": {
+    "system": "hermes"
+  },
+  "sounds": {
+    "system": "hermes"
+  },
+  "speech_to_text": {
+    "kaldi": {
+      "mix_weight": "0"
+    },
+    "system": "kaldi"
+  },
+  "text_to_speech": {
+    "cache_dir": "tts/googlewavenet/cache",
+    "credentials_json": "tts/googlewavenet/credentials.json",
+    "fallback_tts": "nanotts",
+    "gender": "FEMALE",
+    "language_code": "en-US",
+    "sample_rate": 22050,
+    "system": "wavenet",
+    "url": "https://texttospeech.googleapis.com/v1/text:synthesize",
+    "voice": "Wavenet-C"
+  },
+  "wake": {
+    "porcupine": {
+      "keyword_path": "linux_2021-06-08-utc_v1_9_0.ppn"
+    },
+    "system": "porcupine"
+  }
+}

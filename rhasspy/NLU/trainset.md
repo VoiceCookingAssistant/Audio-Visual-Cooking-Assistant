@@ -1,0 +1,2120 @@
+## intent:SelectRecipe
+
+- i want to prepare [catalan cream](recipe)
+- i want to prepare [chicken curry](recipe)
+- lets prepare the [catalan cream](recipe)
+- lets prepare the [chicken curry](recipe)
+- select the [catalan cream](recipe)
+- select the [chicken curry](recipe)
+- select [catalan cream](recipe)
+- select [chicken curry](recipe)
+- lets make [catalan cream](recipe)
+- lets make [chicken curry](recipe)
+- i want to cook [this](recipe) today
+- i want to cook [this](recipe) can you start it
+
+## intent:FindRecipes
+
+- could you please list [healthy](recipe_type) recipes
+- could you please list [vegan](recipe_type) recipes
+- could you please list [vegetarian](recipe_type) recipes
+- could you please list [light](recipe_type) recipes
+- show me my [favorite](recipe_type) recipes
+- can you show me [healthy](recipe_type) meals
+- can you show me [vegan](recipe_type) meals
+- can you show me [vegetarian](recipe_type) meals
+- can you show me [light](recipe_type) meals
+- can you list [favorite](recipe_type) recipes
+- can you list [all](recipe_type) recipes
+- can you list [best rated](recipe_type) recipes
+- can you list [fast](recipe_type) recipes
+- can you list [easy](recipe_type) recipes
+- can you list [quick](recipe_type) recipes
+- show [healthy](recipe_type) recipes
+- show [vegan](recipe_type) recipes
+- show [vegetarian](recipe_type) recipes
+- show [light](recipe_type) recipes
+- show [healthy](recipe_type) dishes only
+- show [vegan](recipe_type) dishes only
+- show [vegetarian](recipe_type) dishes only
+- show [light](recipe_type) dishes only
+- please show me [favorite](recipe_type) dishes
+- please show me [all](recipe_type) dishes
+- please show me [best rated](recipe_type) dishes
+- please show me [fast](recipe_type) dishes
+- please show me [easy](recipe_type) dishes
+- please show me [quick](recipe_type) dishes
+- please list [favorite](recipe_type) recipes
+- please list [all](recipe_type) recipes
+- please list [best rated](recipe_type) recipes
+- please list [fast](recipe_type) recipes
+- please list [easy](recipe_type) recipes
+- please list [quick](recipe_type) recipes
+- list [favorite](recipe_type) recipes
+- list [all](recipe_type) recipes
+- list [best rated](recipe_type) recipes
+- list [fast](recipe_type) recipes
+- list [easy](recipe_type) recipes
+- list [quick](recipe_type) recipes
+- i want to cook something
+- can you recommend a [healthy](recipe_type) dish for today
+- can you recommend a [vegan](recipe_type) dish for today
+- can you recommend a [vegetarian](recipe_type) dish for today
+- can you recommend a [light](recipe_type) dish for today
+- can you recommend an [easy](recipe_type) dish for today
+- i am in the mood for [rice](ingredient) today
+- i am in the mood for [pasta](ingredient) today
+- i am in the mood for [potatoe](ingredient) today
+- i am in the mood for [bulgur](ingredient) today
+- i am in the mood for [chicken](ingredient) today
+- i am in the mood for [fish](ingredient) today
+- i am in the mood for [feta](ingredient) today
+- i am in the mood for [tuna](ingredient) today
+- get me a list of [rice](ingredient) recipes
+- get me a list of [pasta](ingredient) recipes
+- get me a list of [potatoe](ingredient) recipes
+- get me a list of [bulgur](ingredient) recipes
+- get me a list of [chicken](ingredient) recipes
+- get me a list of [fish](ingredient) recipes
+- get me a list of [feta](ingredient) recipes
+- get me a list of [tuna](ingredient) recipes
+- what about [rice](ingredient) recipes today
+- what about [pasta](ingredient) recipes today
+- what about [potatoe](ingredient) recipes today
+- what about [bulgur](ingredient) recipes today
+- what about [chicken](ingredient) recipes today
+- what about [fish](ingredient) recipes today
+- what about [feta](ingredient) recipes today
+- what about [tuna](ingredient) recipes today
+- i want to eat [rice](ingredient) show me recipes
+- i want to eat [pasta](ingredient) show me recipes
+- i want to eat [potatoe](ingredient) show me recipes
+- i want to eat [bulgur](ingredient) show me recipes
+- i want to eat [chicken](ingredient) show me recipes
+- i want to eat [fish](ingredient) show me recipes
+- i want to eat [feta](ingredient) show me recipes
+- i want to eat [tuna](ingredient) show me recipes
+- i'd like to cook [rice](ingredient) today
+- i'd like to cook [pasta](ingredient) today
+- i'd like to cook [potatoe](ingredient) today
+- i'd like to cook [bulgur](ingredient) today
+- i'd like to cook [chicken](ingredient) today
+- i'd like to cook [fish](ingredient) today
+- i'd like to cook [feta](ingredient) today
+- i'd like to cook [tuna](ingredient) today
+- show me [favorite](recipe_type) recipes
+- show me [all](recipe_type) recipes
+- show me [best rated](recipe_type) recipes
+- show me [fast](recipe_type) recipes
+- show me [easy](recipe_type) recipes
+- show me [quick](recipe_type) recipes
+- show me [rice](ingredient) recipes
+- show me [pasta](ingredient) recipes
+- show me [potatoe](ingredient) recipes
+- show me [bulgur](ingredient) recipes
+- show me [chicken](ingredient) recipes
+- show me [fish](ingredient) recipes
+- show me [feta](ingredient) recipes
+- show me [tuna](ingredient) recipes
+- show me recipes with [rice](ingredient)
+- show me recipes with [pasta](ingredient)
+- show me recipes with [potatoe](ingredient)
+- show me recipes with [bulgur](ingredient)
+- show me recipes with [chicken](ingredient)
+- show me recipes with [fish](ingredient)
+- show me recipes with [feta](ingredient)
+- show me recipes with [tuna](ingredient)
+- i would like a dish with [rice](ingredient)
+- i would like a dish with [pasta](ingredient)
+- i would like a dish with [potatoe](ingredient)
+- i would like a dish with [bulgur](ingredient)
+- i would like a dish with [chicken](ingredient)
+- i would like a dish with [fish](ingredient)
+- i would like a dish with [feta](ingredient)
+- i would like a dish with [tuna](ingredient)
+- i want to eat something with [rice](ingredient)
+- i want to eat something with [pasta](ingredient)
+- i want to eat something with [potatoe](ingredient)
+- i want to eat something with [bulgur](ingredient)
+- i want to eat something with [chicken](ingredient)
+- i want to eat something with [fish](ingredient)
+- i want to eat something with [feta](ingredient)
+- i want to eat something with [tuna](ingredient)
+
+## intent:SortRecipes
+
+- can you sort the recipes by [rating](recipe_category)
+- can you sort the recipes by [cooking time](recipe_category)
+- can you sort the recipes by [preparation time](recipe_category)
+- can you sort the recipes by [total time](recipe_category)
+- can you sort the recipes by [effort](recipe_category)
+- can you sort the recipes by [price](recipe_category)
+- can you sort the recipes by [calories](recipe_category)
+- would you please sort the recipes by [rating](recipe_category)
+- would you please sort the recipes by [cooking time](recipe_category)
+- would you please sort the recipes by [preparation time](recipe_category)
+- would you please sort the recipes by [total time](recipe_category)
+- would you please sort the recipes by [effort](recipe_category)
+- would you please sort the recipes by [price](recipe_category)
+- would you please sort the recipes by [calories](recipe_category)
+- sort the recipes by [rating](recipe_category) please
+- sort the recipes by [cooking time](recipe_category) please
+- sort the recipes by [preparation time](recipe_category) please
+- sort the recipes by [total time](recipe_category) please
+- sort the recipes by [effort](recipe_category) please
+- sort the recipes by [price](recipe_category) please
+- sort the recipes by [calories](recipe_category) please
+- please sort the recipes by [rating](recipe_category)
+- please sort the recipes by [cooking time](recipe_category)
+- please sort the recipes by [preparation time](recipe_category)
+- please sort the recipes by [total time](recipe_category)
+- please sort the recipes by [effort](recipe_category)
+- please sort the recipes by [price](recipe_category)
+- please sort the recipes by [calories](recipe_category)
+- sort by [rating](recipe_category) please
+- sort by [cooking time](recipe_category) please
+- sort by [preparation time](recipe_category) please
+- sort by [total time](recipe_category) please
+- sort by [effort](recipe_category) please
+- sort by [price](recipe_category) please
+- sort by [calories](recipe_category) please
+
+## intent:AddToFavorites
+
+- can you save [this](recipe) recipe under favorites please
+- can you mark [this](recipe) recipe as favorite
+- can you add [catalan cream](recipe) to my favorites please
+- can you add [chicken curry](recipe) to my favorites please
+- could you add [catalan cream](recipe) to my favorites list
+- could you add [chicken curry](recipe) to my favorites list
+- can you add [catalan cream](recipe) to favorites
+- can you add [chicken curry](recipe) to favorites
+- save [this](recipe) recipe under favorites please
+- add [this](recipe) recipe to my list of favorites
+- please save [this](recipe) recipe as favorite
+- [this](recipe) recipe is my favorite recipe
+- [this](recipe) recipe is my favorite one
+- add [catalan cream](recipe) to my favorites please
+- add [chicken curry](recipe) to my favorites please
+- add [catalan cream](recipe) to my favorites list
+- add [chicken curry](recipe) to my favorites list
+- please mark [catalan cream](recipe) as favorite
+- please mark [chicken curry](recipe) as favorite
+
+## intent:RequestRecipeVariant
+
+- how does the [non vegetarian](recipe_type) version of the recipe look like
+- how does the [vegan](recipe_type) version of the recipe look like
+- how does the [vegetarian](recipe_type) version of the recipe look like
+- what about the [non vegetarian](recipe_type) version of the recipe
+- what about the [vegan](recipe_type) version of the recipe
+- what about the [vegetarian](recipe_type) version of the recipe
+- what about the [non vegetarian](recipe_type) variant of the recipe
+- what about the [vegan](recipe_type) variant of the recipe
+- what about the [vegetarian](recipe_type) variant of the recipe
+- show me the [non vegetarian](recipe_type) version of the recipe
+- show me the [vegan](recipe_type) version of the recipe
+- show me the [vegetarian](recipe_type) version of the recipe
+- please show the [non vegetarian](recipe_type) variant
+- please show the [vegan](recipe_type) variant
+- please show the [vegetarian](recipe_type) variant
+- what about the [non vegetarian](recipe_type) version
+- what about the [vegan](recipe_type) version
+- what about the [vegetarian](recipe_type) version
+- show [non vegetarian](recipe_type) recipe version please
+- show [vegan](recipe_type) recipe version please
+- show [vegetarian](recipe_type) recipe version please
+- display the [non vegetarian](recipe_type) variant
+- display the [vegan](recipe_type) variant
+- display the [vegetarian](recipe_type) variant
+- do you have a [non vegetarian](recipe_type) version of this
+- do you have a [vegan](recipe_type) version of this
+- do you have a [vegetarian](recipe_type) version of this
+- do you have a [non vegetarian](recipe_type) variant
+- do you have a [vegan](recipe_type) variant
+- do you have a [vegetarian](recipe_type) variant
+- switch to the [original](recipe_type) recipe
+- switch to the [non vegetarian](recipe_type) variant of the recipe
+- switch to the [vegan](recipe_type) variant of the recipe
+- switch to the [vegetarian](recipe_type) variant of the recipe
+- switch to the [non vegetarian](recipe_type) variant
+- switch to the [vegan](recipe_type) variant
+- switch to the [vegetarian](recipe_type) variant
+- can i do that [without meat](recipe_type)
+
+## intent:CancelRecipe
+
+- i want to use another recipe
+- could you cancel the recipe
+- cancel this recipe please
+- cancel the recipe please
+- other recipe please
+- cancel this recipe
+- abort the recipe
+- cancel the recipe
+- leave the recipe
+- exit the recipe
+- cancel recipe
+
+## intent:StartRecipe
+
+- please start with the preparation of the [catalan cream](recipe)
+- please start with the preparation of the [chicken curry](recipe)
+- start the [catalan cream](recipe) please
+- start the [chicken curry](recipe) please
+- lets start with preparation
+- initiate the recipe
+- start [catalan cream](recipe)
+- start [chicken curry](recipe)
+- start this recipe
+- start the recipe
+- lets start now
+- we can start
+- okay start
+
+## intent:GetFunctionHelp
+
+- what should i take into account when using the [scaling](function_name) function
+- what should i take into account when using the [chopping](function_name) function
+- what should i take into account when using the [rasping](function_name) function
+- what should i take into account when using the [slicing](function_name) function
+- what should i take into account when using the [mixing](function_name) function
+- what should i take into account when using the [kneading](function_name) function
+- what should i take into account when using the [pureeing](function_name) function
+- what should i take into account when using the [tossing](function_name) function
+- what should i take into account when using the [whipping](function_name) function
+- what should i take into account when using the [fermenting](function_name) function
+- what should i take into account when using the [melting](function_name) function
+- what should i take into account when using the [caramelizing](function_name) function
+- what should i take into account when using the [warming](function_name) function
+- what should i take into account when using the [boiling](function_name) function
+- what should i take into account when using the [poaching](function_name) function
+- what should i take into account when using the [simmering](function_name) function
+- what should i take into account when using the [swelling](function_name) function
+- what should i take into account when using the [steaming](function_name) function
+- what should i take into account when using the [slow cooking](function_name) function
+- what should i take into account when using the [braising](function_name) function
+- what should i take into account when using the [searing](function_name) function
+- what should i take into account when using the [roasting](function_name) function
+- tell me more about using the [scaling](function_name) function
+- tell me more about using the [chopping](function_name) function
+- tell me more about using the [rasping](function_name) function
+- tell me more about using the [slicing](function_name) function
+- tell me more about using the [mixing](function_name) function
+- tell me more about using the [kneading](function_name) function
+- tell me more about using the [pureeing](function_name) function
+- tell me more about using the [tossing](function_name) function
+- tell me more about using the [whipping](function_name) function
+- tell me more about using the [fermenting](function_name) function
+- tell me more about using the [melting](function_name) function
+- tell me more about using the [caramelizing](function_name) function
+- tell me more about using the [warming](function_name) function
+- tell me more about using the [boiling](function_name) function
+- tell me more about using the [poaching](function_name) function
+- tell me more about using the [simmering](function_name) function
+- tell me more about using the [swelling](function_name) function
+- tell me more about using the [steaming](function_name) function
+- tell me more about using the [slow cooking](function_name) function
+- tell me more about using the [braising](function_name) function
+- tell me more about using the [searing](function_name) function
+- tell me more about using the [roasting](function_name) function
+- could you help me with the [scaling](function_name) function
+- could you help me with the [chopping](function_name) function
+- could you help me with the [rasping](function_name) function
+- could you help me with the [slicing](function_name) function
+- could you help me with the [mixing](function_name) function
+- could you help me with the [kneading](function_name) function
+- could you help me with the [pureeing](function_name) function
+- could you help me with the [tossing](function_name) function
+- could you help me with the [whipping](function_name) function
+- could you help me with the [fermenting](function_name) function
+- could you help me with the [melting](function_name) function
+- could you help me with the [caramelizing](function_name) function
+- could you help me with the [warming](function_name) function
+- could you help me with the [boiling](function_name) function
+- could you help me with the [poaching](function_name) function
+- could you help me with the [simmering](function_name) function
+- could you help me with the [swelling](function_name) function
+- could you help me with the [steaming](function_name) function
+- could you help me with the [slow cooking](function_name) function
+- could you help me with the [braising](function_name) function
+- could you help me with the [searing](function_name) function
+- could you help me with the [roasting](function_name) function
+- can you help me with the [scaling](function_name) function
+- can you help me with the [chopping](function_name) function
+- can you help me with the [rasping](function_name) function
+- can you help me with the [slicing](function_name) function
+- can you help me with the [mixing](function_name) function
+- can you help me with the [kneading](function_name) function
+- can you help me with the [pureeing](function_name) function
+- can you help me with the [tossing](function_name) function
+- can you help me with the [whipping](function_name) function
+- can you help me with the [fermenting](function_name) function
+- can you help me with the [melting](function_name) function
+- can you help me with the [caramelizing](function_name) function
+- can you help me with the [warming](function_name) function
+- can you help me with the [boiling](function_name) function
+- can you help me with the [poaching](function_name) function
+- can you help me with the [simmering](function_name) function
+- can you help me with the [swelling](function_name) function
+- can you help me with the [steaming](function_name) function
+- can you help me with the [slow cooking](function_name) function
+- can you help me with the [braising](function_name) function
+- can you help me with the [searing](function_name) function
+- can you help me with the [roasting](function_name) function
+- i need help with the [scaling](function_name) function
+- i need help with the [chopping](function_name) function
+- i need help with the [rasping](function_name) function
+- i need help with the [slicing](function_name) function
+- i need help with the [mixing](function_name) function
+- i need help with the [kneading](function_name) function
+- i need help with the [pureeing](function_name) function
+- i need help with the [tossing](function_name) function
+- i need help with the [whipping](function_name) function
+- i need help with the [fermenting](function_name) function
+- i need help with the [melting](function_name) function
+- i need help with the [caramelizing](function_name) function
+- i need help with the [warming](function_name) function
+- i need help with the [boiling](function_name) function
+- i need help with the [poaching](function_name) function
+- i need help with the [simmering](function_name) function
+- i need help with the [swelling](function_name) function
+- i need help with the [steaming](function_name) function
+- i need help with the [slow cooking](function_name) function
+- i need help with the [braising](function_name) function
+- i need help with the [searing](function_name) function
+- i need help with the [roasting](function_name) function
+- how should i use the [scaling](function_name) function
+- how should i use the [chopping](function_name) function
+- how should i use the [rasping](function_name) function
+- how should i use the [slicing](function_name) function
+- how should i use the [mixing](function_name) function
+- how should i use the [kneading](function_name) function
+- how should i use the [pureeing](function_name) function
+- how should i use the [tossing](function_name) function
+- how should i use the [whipping](function_name) function
+- how should i use the [fermenting](function_name) function
+- how should i use the [melting](function_name) function
+- how should i use the [caramelizing](function_name) function
+- how should i use the [warming](function_name) function
+- how should i use the [boiling](function_name) function
+- how should i use the [poaching](function_name) function
+- how should i use the [simmering](function_name) function
+- how should i use the [swelling](function_name) function
+- how should i use the [steaming](function_name) function
+- how should i use the [slow cooking](function_name) function
+- how should i use the [braising](function_name) function
+- how should i use the [searing](function_name) function
+- how should i use the [roasting](function_name) function
+- i need help regarding [scaling](function_name)
+- i need help regarding [chopping](function_name)
+- i need help regarding [rasping](function_name)
+- i need help regarding [slicing](function_name)
+- i need help regarding [mixing](function_name)
+- i need help regarding [kneading](function_name)
+- i need help regarding [pureeing](function_name)
+- i need help regarding [tossing](function_name)
+- i need help regarding [whipping](function_name)
+- i need help regarding [fermenting](function_name)
+- i need help regarding [melting](function_name)
+- i need help regarding [caramelizing](function_name)
+- i need help regarding [warming](function_name)
+- i need help regarding [boiling](function_name)
+- i need help regarding [poaching](function_name)
+- i need help regarding [simmering](function_name)
+- i need help regarding [swelling](function_name)
+- i need help regarding [steaming](function_name)
+- i need help regarding [slow cooking](function_name)
+- i need help regarding [braising](function_name)
+- i need help regarding [searing](function_name)
+- i need help regarding [roasting](function_name)
+- how can i start [scaling](function_name)
+- how can i start [chopping](function_name)
+- how can i start [rasping](function_name)
+- how can i start [slicing](function_name)
+- how can i start [mixing](function_name)
+- how can i start [kneading](function_name)
+- how can i start [pureeing](function_name)
+- how can i start [tossing](function_name)
+- how can i start [whipping](function_name)
+- how can i start [fermenting](function_name)
+- how can i start [melting](function_name)
+- how can i start [caramelizing](function_name)
+- how can i start [warming](function_name)
+- how can i start [boiling](function_name)
+- how can i start [poaching](function_name)
+- how can i start [simmering](function_name)
+- how can i start [swelling](function_name)
+- how can i start [steaming](function_name)
+- how can i start [slow cooking](function_name)
+- how can i start [braising](function_name)
+- how can i start [searing](function_name)
+- how can i start [roasting](function_name)
+- how can we go on with [scaling](function_name)
+- how can we go on with [chopping](function_name)
+- how can we go on with [rasping](function_name)
+- how can we go on with [slicing](function_name)
+- how can we go on with [mixing](function_name)
+- how can we go on with [kneading](function_name)
+- how can we go on with [pureeing](function_name)
+- how can we go on with [tossing](function_name)
+- how can we go on with [whipping](function_name)
+- how can we go on with [fermenting](function_name)
+- how can we go on with [melting](function_name)
+- how can we go on with [caramelizing](function_name)
+- how can we go on with [warming](function_name)
+- how can we go on with [boiling](function_name)
+- how can we go on with [poaching](function_name)
+- how can we go on with [simmering](function_name)
+- how can we go on with [swelling](function_name)
+- how can we go on with [steaming](function_name)
+- how can we go on with [slow cooking](function_name)
+- how can we go on with [braising](function_name)
+- how can we go on with [searing](function_name)
+- how can we go on with [roasting](function_name)
+- how can we start with [scaling](function_name)
+- how can we start with [chopping](function_name)
+- how can we start with [rasping](function_name)
+- how can we start with [slicing](function_name)
+- how can we start with [mixing](function_name)
+- how can we start with [kneading](function_name)
+- how can we start with [pureeing](function_name)
+- how can we start with [tossing](function_name)
+- how can we start with [whipping](function_name)
+- how can we start with [fermenting](function_name)
+- how can we start with [melting](function_name)
+- how can we start with [caramelizing](function_name)
+- how can we start with [warming](function_name)
+- how can we start with [boiling](function_name)
+- how can we start with [poaching](function_name)
+- how can we start with [simmering](function_name)
+- how can we start with [swelling](function_name)
+- how can we start with [steaming](function_name)
+- how can we start with [slow cooking](function_name)
+- how can we start with [braising](function_name)
+- how can we start with [searing](function_name)
+- how can we start with [roasting](function_name)
+- get [scaling](function_name) information
+- get [chopping](function_name) information
+- get [rasping](function_name) information
+- get [slicing](function_name) information
+- get [mixing](function_name) information
+- get [kneading](function_name) information
+- get [pureeing](function_name) information
+- get [tossing](function_name) information
+- get [whipping](function_name) information
+- get [fermenting](function_name) information
+- get [melting](function_name) information
+- get [caramelizing](function_name) information
+- get [warming](function_name) information
+- get [boiling](function_name) information
+- get [poaching](function_name) information
+- get [simmering](function_name) information
+- get [swelling](function_name) information
+- get [steaming](function_name) information
+- get [slow cooking](function_name) information
+- get [braising](function_name) information
+- get [searing](function_name) information
+- get [roasting](function_name) information
+- give information on [scaling](function_name)
+- give information on [chopping](function_name)
+- give information on [rasping](function_name)
+- give information on [slicing](function_name)
+- give information on [mixing](function_name)
+- give information on [kneading](function_name)
+- give information on [pureeing](function_name)
+- give information on [tossing](function_name)
+- give information on [whipping](function_name)
+- give information on [fermenting](function_name)
+- give information on [melting](function_name)
+- give information on [caramelizing](function_name)
+- give information on [warming](function_name)
+- give information on [boiling](function_name)
+- give information on [poaching](function_name)
+- give information on [simmering](function_name)
+- give information on [swelling](function_name)
+- give information on [steaming](function_name)
+- give information on [slow cooking](function_name)
+- give information on [braising](function_name)
+- give information on [searing](function_name)
+- give information on [roasting](function_name)
+- tell me how to [chop](function_name)
+- tell me how to [rasp](function_name)
+- tell me how to [slice](function_name)
+- tell me how to [mix](function_name)
+- tell me how to [ferment](function_name)
+- tell me how to [scale](function_name)
+- tell me how to [knead](function_name)
+- tell me how to [caramelize](function_name)
+- tell me how to [steam](function_name)
+- tell me how to [roast](function_name)
+- what i need for [scaling](function_name)
+- what i need for [chopping](function_name)
+- what i need for [rasping](function_name)
+- what i need for [slicing](function_name)
+- what i need for [mixing](function_name)
+- what i need for [kneading](function_name)
+- what i need for [pureeing](function_name)
+- what i need for [tossing](function_name)
+- what i need for [whipping](function_name)
+- what i need for [fermenting](function_name)
+- what i need for [melting](function_name)
+- what i need for [caramelizing](function_name)
+- what i need for [warming](function_name)
+- what i need for [boiling](function_name)
+- what i need for [poaching](function_name)
+- what i need for [simmering](function_name)
+- what i need for [swelling](function_name)
+- what i need for [steaming](function_name)
+- what i need for [slow cooking](function_name)
+- what i need for [braising](function_name)
+- what i need for [searing](function_name)
+- what i need for [roasting](function_name)
+
+## intent:NextStep
+
+- go to the next step on the recipe
+- go to next step on the recipe
+- lets go to the next step
+- move on to the next step
+- go to the next step
+- go to the next
+- go to next step
+- go to next
+- show me the next step
+- what i should do next
+- next step please
+- next step
+- lets continue with the next step
+- what is next
+- ok next step
+- step forward
+- next please
+- i am done
+- next one
+- go next
+- i did everything you said
+- i am done whats next
+- alright whats next
+- alright i am done
+- its inserted
+- i am done
+- done
+
+## intent:PreviousStep
+
+- can you please show me the previous step
+- can you go to the previous step please
+- could you show the previous step
+- show me the previous step please
+- please go to the previous step
+- go to the previous step
+- go to the previous
+- go to previous step
+- go to previous
+- show me the previous step
+- what was the last step
+- one step earlier please
+- one step back please
+- previous step please
+- show the last step
+- step back
+
+## intent:SkipStep
+
+- trust me we dont have to do this
+- please skip the current step
+- can we skip this step please
+- we dont have to do this
+- skip the step for now
+- skip the current step
+- skip this step please
+- we can skip that step
+- skip this step
+- skip step
+
+## intent:RepeatExplanation
+
+- could you repeat the last step please
+- could you repeat the last step
+- could you repeat last step please
+- could you repeat last step
+- please repeat what you have just said
+- can you please explain it again
+- what am i doing with this again
+- repeat what you have just said
+- repeat the instructions
+- repeat instructions
+- explain it again please
+- please explain again
+- can you repeat that
+- please say it again
+- please repeat
+- again please
+- again
+- explain again
+- say it again
+- repeat step
+- pardon
+
+## intent:SkipIngredient
+
+- i would like to omit the [onion](ingredient)
+- i would like to omit the [carrot](ingredient)
+- i would like to omit the [potato](ingredient)
+- i would like to omit the [potatoes](ingredient)
+- i would like to omit the [carrots](ingredient)
+- i would like to omit the [onions](ingredient)
+- lets go on without the [onion](ingredient)
+- lets go on without the [carrot](ingredient)
+- lets go on without the [potato](ingredient)
+- lets go on without the [potatoes](ingredient)
+- lets go on without the [carrots](ingredient)
+- lets go on without the [onions](ingredient)
+- disregard the [onion](ingredient)
+- disregard the [carrot](ingredient)
+- disregard the [potato](ingredient)
+- disregard the [potatoes](ingredient)
+- disregard the [carrots](ingredient)
+- disregard the [onions](ingredient)
+- we dont have [onion](ingredient) go on
+- we dont have [carrot](ingredient) go on
+- we dont have [potato](ingredient) go on
+- we dont have [potatoes](ingredient) go on
+- we dont have [carrots](ingredient) go on
+- we dont have [onions](ingredient) go on
+- can we omit [onion](ingredient)
+- can we omit [carrot](ingredient)
+- can we omit [potato](ingredient)
+- can we omit [potatoes](ingredient)
+- can we omit [carrots](ingredient)
+- can we omit [onions](ingredient)
+- lets skip over the [onion](ingredient)
+- lets skip over the [carrot](ingredient)
+- lets skip over the [potato](ingredient)
+- lets skip over the [potatoes](ingredient)
+- lets skip over the [carrots](ingredient)
+- lets skip over the [onions](ingredient)
+- i dont have [onion](ingredient) next step
+- i dont have [carrot](ingredient) next step
+- i dont have [potato](ingredient) next step
+- i dont have [potatoes](ingredient) next step
+- i dont have [carrots](ingredient) next step
+- i dont have [onions](ingredient) next step
+- i dont have [onion](ingredient) can i skip that
+- i dont have [carrot](ingredient) can i skip that
+- i dont have [potato](ingredient) can i skip that
+- i dont have [potatoes](ingredient) can i skip that
+- i dont have [carrots](ingredient) can i skip that
+- i dont have [onions](ingredient) can i skip that
+- i dont have [onion](ingredient) go on
+- i dont have [carrot](ingredient) go on
+- i dont have [potato](ingredient) go on
+- i dont have [potatoes](ingredient) go on
+- i dont have [carrots](ingredient) go on
+- i dont have [onions](ingredient) go on
+- lets skip the [onion](ingredient)
+- lets skip the [carrot](ingredient)
+- lets skip the [potato](ingredient)
+- lets skip the [potatoes](ingredient)
+- lets skip the [carrots](ingredient)
+- lets skip the [onions](ingredient)
+- go on without [onion](ingredient)
+- go on without [carrot](ingredient)
+- go on without [potato](ingredient)
+- go on without [potatoes](ingredient)
+- go on without [carrots](ingredient)
+- go on without [onions](ingredient)
+- go on without this ingredient
+- please skip [onion](ingredient)
+- please skip [carrot](ingredient)
+- please skip [potato](ingredient)
+- please skip [potatoes](ingredient)
+- please skip [carrots](ingredient)
+- please skip [onions](ingredient)
+- can i skip [onion](ingredient)
+- can i skip [carrot](ingredient)
+- can i skip [potato](ingredient)
+- can i skip [potatoes](ingredient)
+- can i skip [carrots](ingredient)
+- can i skip [onions](ingredient)
+- i dont want that ingredient
+
+## intent:RequestAlternativeIngredient
+
+- i do not have [onion](ingredient) can i substitute anything
+- i do not have [carrot](ingredient) can i substitute anything
+- i do not have [potato](ingredient) can i substitute anything
+- i want to cook a similar recipe without [onion](ingredient)
+- i want to cook a similar recipe without [carrot](ingredient)
+- i want to cook a similar recipe without [potato](ingredient)
+- i have no [onion](ingredient) can i substitute anything
+- i have no [carrot](ingredient) can i substitute anything
+- i have no [potato](ingredient) can i substitute anything
+- is the [onion](ingredient) necessary for the dish
+- is the [carrot](ingredient) necessary for the dish
+- is the [potato](ingredient) necessary for the dish
+- is [onion](ingredient) necessary for the dish
+- is [carrot](ingredient) necessary for the dish
+- is [potato](ingredient) necessary for the dish
+- is the [onion](ingredient) necessary for the meal
+- is the [carrot](ingredient) necessary for the meal
+- is the [potato](ingredient) necessary for the meal
+- is [onion](ingredient) necessary for the meal
+- is [carrot](ingredient) necessary for the meal
+- is [potato](ingredient) necessary for the meal
+- which ingredient can i use as an alternative
+- what can i use instead of [onion](ingredient)
+- what can i use instead of [carrot](ingredient)
+- what can i use instead of [potato](ingredient)
+- with what do i substitute [onion](ingredient)
+- with what do i substitute [carrot](ingredient)
+- with what do i substitute [potato](ingredient)
+- i am looking for a substitute for [onion](ingredient)
+- i am looking for a substitute for [carrot](ingredient)
+- i am looking for a substitute for [potato](ingredient)
+- show me alternatives for [onion](ingredient)
+- show me alternatives for [carrot](ingredient)
+- show me alternatives for [potato](ingredient)
+- i have no [onion](ingredient) alternatives
+- i have no [carrot](ingredient) alternatives
+- i have no [potato](ingredient) alternatives
+- what do i replace [onion](ingredient) with
+- what do i replace [carrot](ingredient) with
+- what do i replace [potato](ingredient) with
+- other ingredient for the [onion](ingredient)
+- other ingredient for the [carrot](ingredient)
+- other ingredient for the [potato](ingredient)
+- other ingredient for [onion](ingredient)
+- other ingredient for [carrot](ingredient)
+- other ingredient for [potato](ingredient)
+- what can i use as a substitute for [onion](ingredient)
+- what can i use as a substitute for [carrot](ingredient)
+- what can i use as a substitute for [potato](ingredient)
+- can we substitute the [onion](ingredient)
+- can we substitute the [carrot](ingredient)
+- can we substitute the [potato](ingredient)
+- what can i use as an alternative
+- alternatives for [onion](ingredient)
+- alternatives for [carrot](ingredient)
+- alternatives for [potato](ingredient)
+
+## intent:SetPortions
+
+- select [two](amount) portions please
+- select [two](amount) portions
+- select [three](amount) portions please
+- select [three](amount) portions
+- select [four](amount) portions please
+- select [four](amount) portions
+- select [five](amount) portions please
+- select [five](amount) portions
+- select [six](amount) portions please
+- select [six](amount) portions
+- select [seven](amount) portions please
+- select [seven](amount) portions
+- select [eight](amount) portions please
+- select [eight](amount) portions
+- i want this recipe for [two](amount) people please
+- i want this recipe for [three](amount) people please
+- i want this recipe for [four](amount) people please
+- i want this recipe for [five](amount) people please
+- i want this recipe for [six](amount) people please
+- i want this recipe for [seven](amount) people please
+- i want this recipe for [eight](amount) people please
+- change amount of portions to [two](amount)
+- change amount of portions to [three](amount)
+- change amount of portions to [four](amount)
+- change amount of portions to [five](amount)
+- change amount of portions to [six](amount)
+- change amount of portions to [seven](amount)
+- change amount of portions to [eight](amount)
+- i am cooking for [two](amount) people
+- i am cooking for [three](amount) people
+- i am cooking for [four](amount) people
+- i am cooking for [five](amount) people
+- i am cooking for [six](amount) people
+- i am cooking for [seven](amount) people
+- i am cooking for [eight](amount) people
+- i am cooking for [two](amount) persons
+- i am cooking for [three](amount) persons
+- i am cooking for [four](amount) persons
+- i am cooking for [five](amount) persons
+- i am cooking for [six](amount) persons
+- i am cooking for [seven](amount) persons
+- i am cooking for [eight](amount) persons
+- i would like to cook for [two](amount) people
+- i would like to cook for [three](amount) people
+- i would like to cook for [four](amount) people
+- i would like to cook for [five](amount) people
+- i would like to cook for [six](amount) people
+- i would like to cook for [seven](amount) people
+- i would like to cook for [eight](amount) people
+- [two](amount) portions please
+- [two](amount) portions
+- [three](amount) portions please
+- [three](amount) portions
+- [four](amount) portions please
+- [four](amount) portions
+- [five](amount) portions please
+- [five](amount) portions
+- [six](amount) portions please
+- [six](amount) portions
+- [seven](amount) portions please
+- [seven](amount) portions
+- [eight](amount) portions please
+- [eight](amount) portions
+- for [two](amount) persons please
+- for [two](amount) persons
+- for [three](amount) persons please
+- for [three](amount) persons
+- for [four](amount) persons please
+- for [four](amount) persons
+- for [five](amount) persons please
+- for [five](amount) persons
+- for [six](amount) persons please
+- for [six](amount) persons
+- for [seven](amount) persons please
+- for [seven](amount) persons
+- for [eight](amount) persons please
+- for [eight](amount) persons
+- set it to [two](amount) portions
+- set it to [three](amount) portions
+- set it to [four](amount) portions
+- set it to [five](amount) portions
+- set it to [six](amount) portions
+- set it to [seven](amount) portions
+- set it to [eight](amount) portions
+- adapt the recipe for [two](amount) people
+- adapt the recipe for [three](amount) people
+- adapt the recipe for [four](amount) people
+- adapt the recipe for [five](amount) people
+- adapt the recipe for [six](amount) people
+- adapt the recipe for [seven](amount) people
+- adapt the recipe for [eight](amount) people
+- can you convert the recipe for [two](amount) people
+- can you convert the recipe for [three](amount) people
+- can you convert the recipe for [four](amount) people
+- can you convert the recipe for [five](amount) people
+- can you convert the recipe for [six](amount) people
+- can you convert the recipe for [seven](amount) people
+- can you convert the recipe for [eight](amount) people
+- could you set the number of portions to [two](amount) please
+- could you set the number of portions to [three](amount) please
+- could you set the number of portions to [four](amount) please
+- could you set the number of portions to [five](amount) please
+- could you set the number of portions to [six](amount) please
+- could you set the number of portions to [seven](amount) please
+- could you set the number of portions to [eight](amount) please
+- there will be [two](amount) people eating
+- there will be [three](amount) people eating
+- there will be [four](amount) people eating
+- there will be [five](amount) people eating
+- there will be [six](amount) people eating
+- there will be [seven](amount) people eating
+- there will be [eight](amount) people eating
+- update recipe for [two](amount) persons
+- update recipe for [three](amount) persons
+- update recipe for [four](amount) persons
+- update recipe for [five](amount) persons
+- update recipe for [six](amount) persons
+- update recipe for [seven](amount) persons
+- update recipe for [eight](amount) persons
+- lets cook for [two](amount) persons
+- lets cook for [three](amount) persons
+- lets cook for [four](amount) persons
+- lets cook for [five](amount) persons
+- lets cook for [six](amount) persons
+- lets cook for [seven](amount) persons
+- lets cook for [eight](amount) persons
+- lets cook for [two](amount) people
+- lets cook for [three](amount) people
+- lets cook for [four](amount) people
+- lets cook for [five](amount) people
+- lets cook for [six](amount) people
+- lets cook for [seven](amount) people
+- lets cook for [eight](amount) people
+- there are [two](amount) of us
+- there are [three](amount) of us
+- there are [four](amount) of us
+- there are [five](amount) of us
+- there are [six](amount) of us
+- there are [seven](amount) of us
+- there are [eight](amount) of us
+- lets choose [two](amount) portions
+- lets choose [three](amount) portions
+- lets choose [four](amount) portions
+- lets choose [five](amount) portions
+- lets choose [six](amount) portions
+- lets choose [seven](amount) portions
+- lets choose [eight](amount) portions
+- lets make [two](amount) portions please
+- lets make [three](amount) portions please
+- lets make [four](amount) portions please
+- lets make [five](amount) portions please
+- lets make [six](amount) portions please
+- lets make [seven](amount) portions please
+- lets make [eight](amount) portions please
+- lets cook [two](amount) portions
+- lets cook [three](amount) portions
+- lets cook [four](amount) portions
+- lets cook [five](amount) portions
+- lets cook [six](amount) portions
+- lets cook [seven](amount) portions
+- lets cook [eight](amount) portions
+- i want [two](amount) portions please
+- i want [three](amount) portions please
+- i want [four](amount) portions please
+- i want [five](amount) portions please
+- i want [six](amount) portions please
+- i want [seven](amount) portions please
+- i want [eight](amount) portions please
+- we are [two](amount) persons
+- we are [three](amount) persons
+- we are [four](amount) persons
+- we are [five](amount) persons
+- we are [six](amount) persons
+- we are [seven](amount) persons
+- we are [eight](amount) persons
+- we are [two](amount) people
+- we are [three](amount) people
+- we are [four](amount) people
+- we are [five](amount) people
+- we are [six](amount) people
+- we are [seven](amount) people
+- we are [eight](amount) people
+- we are [two](amount)
+- we are [three](amount)
+- we are [four](amount)
+- we are [five](amount)
+- we are [six](amount)
+- we are [seven](amount)
+- we are [eight](amount)
+
+## intent:ShowRecipeStepOverview
+
+- please give me an overview of all remaining steps
+- i would like to see the whole recipe
+- can i see the whole recipe again
+- i want an overview of all steps
+- go back to the recipe overview
+- display the recipe overview
+- how many steps ahead
+- please show me all recipe steps
+- give me an overview
+- show me all steps
+- recipe overview
+- display all recipe steps
+- checklist please
+- display all steps of the recipes
+- show all steps of the recipe
+- show me the remaining steps
+- tell me the next steps
+- tell me the next steps please
+
+## intent:RequestPreparationAlternatives
+
+- can you show me an alternative preparation method
+- i cant find the tool anymore how can i go on
+- can i also cut the ingredients manually
+- can i also cut ingredients manually
+- can i cut the ingredients manually
+- can i cut ingredients manually
+- how can we go on without the tool
+- what can i use instead of the grating disc
+- what if i dont find the double whisk attachment
+- what tool can i use as a substitute for the stirrer
+- how can i go on if the tool is missing
+- what can i do if my tool is broken
+- tell me how to continue without the tool
+- how can i proceed without the tool
+- i have lost the tool can i still proceed
+- how can i do this step without the tool
+- can i use another tool for this step
+
+## intent:SetDisplayBrightness
+
+- can we put display brightness on [zero percent](brightness)
+- can we put display brightness on [thirty percent](brightness)
+- can we put display brightness on [fifty percent](brightness)
+- can we put display brightness on [seventy percent](brightness)
+- please set the brightness of the display to [zero percent](brightness)
+- please set the brightness of the display to [thirty percent](brightness)
+- please set the brightness of the display to [fifty percent](brightness)
+- please set the brightness of the display to [seventy percent](brightness)
+- set the brightness of the display to [zero percent](brightness) please
+- set the brightness of the display to [thirty percent](brightness) please
+- set the brightness of the display to [fifty percent](brightness) please
+- set the brightness of the display to [seventy percent](brightness) please
+- set display brightness to [zero percent](brightness)
+- set display brightness to [thirty percent](brightness)
+- set display brightness to [fifty percent](brightness)
+- set display brightness to [seventy percent](brightness)
+- put screen brightness on [zero percent](brightness)
+- put screen brightness on [thirty percent](brightness)
+- put screen brightness on [fifty percent](brightness)
+- put screen brightness on [seventy percent](brightness)
+- set brightness to [zero percent](brightness) please
+- set brightness to [thirty percent](brightness) please
+- set brightness to [fifty percent](brightness) please
+- set brightness to [seventy percent](brightness) please
+- set brightness to [zero percent](brightness)
+- set brightness to [thirty percent](brightness)
+- set brightness to [fifty percent](brightness)
+- set brightness to [seventy percent](brightness)
+- put brightness on [zero percent](brightness)
+- put brightness on [thirty percent](brightness)
+- put brightness on [fifty percent](brightness)
+- put brightness on [seventy percent](brightness)
+
+## intent:IncreaseDisplayBrightness
+
+- can you increase the brightness of the screen to [thirty](brightness)
+- can you increase the brightness of the screen to [fifty percent](brightness)
+- can you increase the brightness of the screen to [seventy percent](brightness)
+- can you increase the brightness of the screen to [one hundred percent](brightness)
+- can you increase the brightness of the display to [thirty](brightness)
+- can you increase the brightness of the display to [fifty percent](brightness)
+- can you increase the brightness of the display to [seventy percent](brightness)
+- can you increase the brightness of the display to [one hundred percent](brightness)
+- lets turn up the brightness of the screen to [thirty](brightness)
+- lets turn up the brightness of the screen to [fifty percent](brightness)
+- lets turn up the brightness of the screen to [seventy percent](brightness)
+- lets turn up the brightness of the screen to [one hundred percent](brightness)
+- lets turn up the brightness of the display to [thirty](brightness)
+- lets turn up the brightness of the display to [fifty percent](brightness)
+- lets turn up the brightness of the display to [seventy percent](brightness)
+- lets turn up the brightness of the display to [one hundred percent](brightness)
+- can you turn up display brightness to [thirty](brightness)
+- can you turn up display brightness to [fifty percent](brightness)
+- can you turn up display brightness to [seventy percent](brightness)
+- can you turn up display brightness to [one hundred percent](brightness)
+- would you make the display a little brighter please
+- could you make the screen a little brighter please
+- lets make the screen a little brighter please
+- can we increase screen brightness please
+- could we make the display a bit brighter
+- the display is too dark make it brighter
+- lets turn up display brightness please
+- lets make the display a bit brighter
+- lets increase the screen brightness
+- turn up display brightness please
+- the display is too dark
+- turn up the brightness
+- brighter please
+- brighter
+
+## intent:DecreaseDisplayBrightness
+
+- can you decrease the brightness of the screen to [zero percent](brightness)
+- can you decrease the brightness of the screen to [thirty percent](brightness)
+- can you decrease the brightness of the screen to [fifty percent](brightness)
+- can you decrease the brightness of the screen to [seventy percent](brightness)
+- can you decrease the brightness of the display to [zero percent](brightness)
+- can you decrease the brightness of the display to [thirty percent](brightness)
+- can you decrease the brightness of the display to [fifty percent](brightness)
+- can you decrease the brightness of the display to [seventy percent](brightness)
+- lets turn down the brightness of the screen to [zero percent](brightness)
+- lets turn down the brightness of the screen to [thirty percent](brightness)
+- lets turn down the brightness of the screen to [fifty percent](brightness)
+- lets turn down the brightness of the screen to [seventy percent](brightness)
+- lets turn down the brightness of the display to [zero percent](brightness)
+- lets turn down the brightness of the display to [thirty percent](brightness)
+- lets turn down the brightness of the display to [fifty percent](brightness)
+- lets turn down the brightness of the display to [seventy percent](brightness)
+- would you make the display a little darker please
+- could you make the screen a little darker please
+- can you turn down display brightness to [zero percent](brightness)
+- can you turn down display brightness to [thirty percent](brightness)
+- can you turn down display brightness to [fifty percent](brightness)
+- can you turn down display brightness to [seventy percent](brightness)
+- lets make the screen a little darker please
+- can we decrease screen brightness please
+- the display is too dark make it darker
+- make the screen a little darker please
+- lets turn down display brightness please
+- lets make the display a bit darker
+- turn down display brightness please
+- lower the screen brightness
+- the display is too bright
+- the screen is too bright
+- turn down the brightness
+- darker please
+- darker
+
+## intent:GetTemperature
+
+- tell me the temperature
+- current temperature
+- please temperature
+- temperature now
+- whats the temperature of the food
+- how cold is it
+- how warm is it
+- how hot is it
+- temperature
+- share the temperature with me
+- let me know the temperature
+- communicate temperature
+
+## intent:SetProcessTime
+
+- adjust time to [ten seconds](duration) please
+- adjust time to [twenty seconds](duration) please
+- adjust time to [thirty seconds](duration) please
+- adjust time to [one minute](duration) please
+- adjust time to [two minutes](duration) please
+- adjust time to [three minutes](duration) please
+- adjust time to [four minutes](duration) please
+- adjust time to [five minutes](duration) please
+- stir for [ten seconds](duration)
+- stir for [twenty seconds](duration)
+- stir for [thirty seconds](duration)
+- stir for [one minute](duration)
+- stir for [two minutes](duration)
+- stir for [three minutes](duration)
+- stir for [four minutes](duration)
+- stir for [five minutes](duration)
+- knead for [ten seconds](duration)
+- knead for [twenty seconds](duration)
+- knead for [thirty seconds](duration)
+- knead for [one minute](duration)
+- knead for [two minutes](duration)
+- knead for [three minutes](duration)
+- knead for [four minutes](duration)
+- knead for [five minutes](duration)
+- mix for [ten seconds](duration)
+- mix for [twenty seconds](duration)
+- mix for [thirty seconds](duration)
+- mix for [one minute](duration)
+- mix for [two minutes](duration)
+- mix for [three minutes](duration)
+- mix for [four minutes](duration)
+- mix for [five minutes](duration)
+- [ten seconds](duration) please
+- [twenty seconds](duration) please
+- [thirty seconds](duration) please
+- [one minute](duration) please
+- [two minutes](duration) please
+- [three minutes](duration) please
+- [four minutes](duration) please
+- [five minutes](duration) please
+- process it for [ten seconds](duration) please
+- process it for [twenty seconds](duration) please
+- process it for [thirty seconds](duration) please
+- process it for [one minute](duration) please
+- process it for [two minutes](duration) please
+- process it for [three minutes](duration) please
+- process it for [four minutes](duration) please
+- process it for [five minutes](duration) please
+
+## intent:IncreaseProcessDuration
+
+- [ten seconds](duration) longer please
+- [twenty seconds](duration) longer please
+- [thirty seconds](duration) longer please
+- [one minute](duration) longer please
+- [two minutes](duration) longer please
+- [three minutes](duration) longer please
+- [four minutes](duration) longer please
+- [five minutes](duration) longer please
+- [ten seconds](duration) more please
+- [twenty seconds](duration) more please
+- [thirty seconds](duration) more please
+- [one minute](duration) more please
+- [two minutes](duration) more please
+- [three minutes](duration) more please
+- [four minutes](duration) more please
+- [five minutes](duration) more please
+- [ten seconds](duration) more
+- [twenty seconds](duration) more
+- [thirty seconds](duration) more
+- [one minute](duration) more
+- [two minutes](duration) more
+- [three minutes](duration) more
+- [four minutes](duration) more
+- [five minutes](duration) more
+- increase duration by [ten seconds](duration)
+- increase duration by [twenty seconds](duration)
+- increase duration by [thirty seconds](duration)
+- increase duration by [one minute](duration)
+- increase duration by [two minutes](duration)
+- increase duration by [three minutes](duration)
+- increase duration by [four minutes](duration)
+- increase duration by [five minutes](duration)
+- plus [ten seconds](duration)
+- plus [twenty seconds](duration)
+- plus [thirty seconds](duration)
+- plus [one minute](duration)
+- plus [two minutes](duration)
+- plus [three minutes](duration)
+- plus [four minutes](duration)
+- plus [five minutes](duration)
+- plus [ten seconds](duration) please
+- plus [twenty seconds](duration) please
+- plus [thirty seconds](duration) please
+- plus [one minute](duration) please
+- plus [two minutes](duration) please
+- plus [three minutes](duration) please
+- plus [four minutes](duration) please
+- plus [five minutes](duration) please
+- add [ten seconds](duration)
+- add [twenty seconds](duration)
+- add [thirty seconds](duration)
+- add [one minute](duration)
+- add [two minutes](duration)
+- add [three minutes](duration)
+- add [four minutes](duration)
+- add [five minutes](duration)
+
+## intent:DecreaseProcessDuration
+
+- [ten seconds](duration) shorter please
+- [twenty seconds](duration) shorter please
+- [thirty seconds](duration) shorter please
+- [one minute](duration) shorter please
+- [two minutes](duration) shorter please
+- [three minutes](duration) shorter please
+- [four minutes](duration) shorter please
+- [five minutes](duration) shorter please
+- [ten seconds](duration) less please
+- [twenty seconds](duration) less please
+- [thirty seconds](duration) less please
+- [one minute](duration) less please
+- [two minutes](duration) less please
+- [three minutes](duration) less please
+- [four minutes](duration) less please
+- [five minutes](duration) less please
+- [ten seconds](duration) less
+- [twenty seconds](duration) less
+- [thirty seconds](duration) less
+- [one minute](duration) less
+- [two minutes](duration) less
+- [three minutes](duration) less
+- [four minutes](duration) less
+- [five minutes](duration) less
+- stop the process [ten seconds](duration) earlier
+- stop the process [twenty seconds](duration) earlier
+- stop the process [thirty seconds](duration) earlier
+- stop the process [one minute](duration) earlier
+- stop the process [two minutes](duration) earlier
+- stop the process [three minutes](duration) earlier
+- stop the process [four minutes](duration) earlier
+- stop the process [five minutes](duration) earlier
+- decrease duration by [ten seconds](duration)
+- decrease duration by [twenty seconds](duration)
+- decrease duration by [thirty seconds](duration)
+- decrease duration by [one minute](duration)
+- decrease duration by [two minutes](duration)
+- decrease duration by [three minutes](duration)
+- decrease duration by [four minutes](duration)
+- decrease duration by [five minutes](duration)
+- minus [ten seconds](duration)
+- minus [twenty seconds](duration)
+- minus [thirty seconds](duration)
+- minus [one minute](duration)
+- minus [two minutes](duration)
+- minus [three minutes](duration)
+- minus [four minutes](duration)
+- minus [five minutes](duration)
+- minus [ten seconds](duration) please
+- minus [twenty seconds](duration) please
+- minus [thirty seconds](duration) please
+- minus [one minute](duration) please
+- minus [two minutes](duration) please
+- minus [three minutes](duration) please
+- minus [four minutes](duration) please
+- minus [five minutes](duration) please
+- make it last [ten seconds](duration) less
+- make it last [twenty seconds](duration) less
+- make it last [thirty seconds](duration) less
+- make it last [one minute](duration) less
+- make it last [two minutes](duration) less
+- make it last [three minutes](duration) less
+- make it last [four minutes](duration) less
+- make it last [five minutes](duration) less
+- reduce by [ten seconds](duration)
+- reduce by [twenty seconds](duration)
+- reduce by [thirty seconds](duration)
+- reduce by [one minute](duration)
+- reduce by [two minutes](duration)
+- reduce by [three minutes](duration)
+- reduce by [four minutes](duration)
+- reduce by [five minutes](duration)
+
+## intent:ChangeSpeed
+
+- mix it [faster](speed_action)
+- mix it [more slowly](speed_action)
+- stir it [faster](speed_action)
+- stir it [more slowly](speed_action)
+- knead it [faster](speed_action)
+- knead it [more slowly](speed_action)
+- can you [increase](speed_action) the speed please
+- can you [decrease](speed_action) the speed please
+- can you [reduce](speed_action) the speed please
+- can you [enhance](speed_action) the speed please
+- change speed to level [one](speed_level)
+- change speed to level [two](speed_level)
+- change speed to level [three](speed_level)
+- change speed to level [four](speed_level)
+- change speed to level [five](speed_level)
+- change speed to level [six](speed_level)
+- change speed to level [seven](speed_level)
+- change speed to level [eight](speed_level)
+- change speed to level [nine](speed_level)
+- change speed to level [ten](speed_level)
+- change speed to level [eleven](speed_level)
+- change speed to level [twelve](speed_level)
+- change speed to level [thirteen](speed_level)
+- change speed to level [fourteen](speed_level)
+- change speed to level [fifteen](speed_level)
+- change speed to level [sixteen](speed_level)
+- set speed to level [one](speed_level)
+- set speed to level [two](speed_level)
+- set speed to level [three](speed_level)
+- set speed to level [four](speed_level)
+- set speed to level [five](speed_level)
+- set speed to level [six](speed_level)
+- set speed to level [seven](speed_level)
+- set speed to level [eight](speed_level)
+- set speed to level [nine](speed_level)
+- set speed to level [ten](speed_level)
+- set speed to level [eleven](speed_level)
+- set speed to level [twelve](speed_level)
+- set speed to level [thirteen](speed_level)
+- set speed to level [fourteen](speed_level)
+- set speed to level [fifteen](speed_level)
+- set speed to level [sixteen](speed_level)
+- stir at level [one](speed_level)
+- stir at level [two](speed_level)
+- stir at level [three](speed_level)
+- stir at level [four](speed_level)
+- stir at level [five](speed_level)
+- stir at level [six](speed_level)
+- stir at level [seven](speed_level)
+- stir at level [eight](speed_level)
+- stir at level [nine](speed_level)
+- stir at level [ten](speed_level)
+- stir at level [eleven](speed_level)
+- stir at level [twelve](speed_level)
+- stir at level [thirteen](speed_level)
+- stir at level [fourteen](speed_level)
+- stir at level [fifteen](speed_level)
+- stir at level [sixteen](speed_level)
+- mix at level [one](speed_level)
+- mix at level [two](speed_level)
+- mix at level [three](speed_level)
+- mix at level [four](speed_level)
+- mix at level [five](speed_level)
+- mix at level [six](speed_level)
+- mix at level [seven](speed_level)
+- mix at level [eight](speed_level)
+- mix at level [nine](speed_level)
+- mix at level [ten](speed_level)
+- mix at level [eleven](speed_level)
+- mix at level [twelve](speed_level)
+- mix at level [thirteen](speed_level)
+- mix at level [fourteen](speed_level)
+- mix at level [fifteen](speed_level)
+- mix at level [sixteen](speed_level)
+- knead at level [one](speed_level)
+- knead at level [two](speed_level)
+- knead at level [three](speed_level)
+- knead at level [four](speed_level)
+- knead at level [five](speed_level)
+- knead at level [six](speed_level)
+- knead at level [seven](speed_level)
+- knead at level [eight](speed_level)
+- knead at level [nine](speed_level)
+- knead at level [ten](speed_level)
+- knead at level [eleven](speed_level)
+- knead at level [twelve](speed_level)
+- knead at level [thirteen](speed_level)
+- knead at level [fourteen](speed_level)
+- knead at level [fifteen](speed_level)
+- knead at level [sixteen](speed_level)
+- set the speed level to [maximum](speed_level)
+- set the speed level to [minimum](speed_level)
+
+## intent:ChangeLanguage
+
+- change language from [english](old_language) to [german](new_language)
+- change language from [english](old_language) to [french](new_language)
+- change from [english](old_language) to [german](new_language)
+- change from [english](old_language) to [french](new_language)
+- change language from [german](old_language) to [english](new_language)
+- change language from [german](old_language) to [french](new_language)
+- change from [german](old_language) to [english](new_language)
+- change from [german](old_language) to [french](new_language)
+- can you change language from [english](old_language) to [german](new_language)
+- can you change language from [english](old_language) to [french](new_language)
+- can you change language from [german](old_language) to [english](new_language)
+- can you change language from [german](old_language) to [french](new_language)
+- can you change language from [french](old_language) to [english](new_language)
+- can you change language from [french](old_language) to [german](new_language)
+- change the language from [english](old_language) to [german](new_language)
+- change the language from [english](old_language) to [french](new_language)
+- change the language from [german](old_language) to [english](new_language)
+- change the language from [german](old_language) to [french](new_language)
+- change the language from [french](old_language) to [english](new_language)
+- change the language from [french](old_language) to [german](new_language)
+- please change the language from [english](old_language) to [german](new_language)
+- please change the language from [english](old_language) to [french](new_language)
+- please change the language from [french](old_language) to [english](new_language)
+- please change the language from [french](old_language) to [german](new_language)
+- please change the language to [english](new_language)
+- please change the language to [german](new_language)
+- please change the language to [french](new_language)
+- change language into [english](new_language) please
+- change language into [english](new_language)
+- change language into [german](new_language) please
+- change language into [german](new_language)
+- change language into [french](new_language) please
+- change language into [french](new_language)
+- change language to [english](new_language) please
+- change language to [german](new_language) please
+- change language to [french](new_language) please
+- could you please talk in [english](new_language)
+- could you please talk in [german](new_language)
+- could you please talk in [french](new_language)
+- i wanna talk to you in [english](new_language)
+- i wanna talk to you in [german](new_language)
+- i wanna talk to you in [french](new_language)
+- do you also understand [english](new_language)
+- do you also understand [german](new_language)
+- do you also understand [french](new_language)
+- can you please talk [english](new_language)
+- can you please talk [german](new_language)
+- can you please talk [french](new_language)
+- can you also speak [english](new_language)
+- can you also speak [german](new_language)
+- can you also speak [french](new_language)
+- can we talk in [english](new_language) too
+- can we talk in [german](new_language) too
+- can we talk in [french](new_language) too
+- switch language to [english](new_language)
+- switch language to [german](new_language)
+- switch language to [french](new_language)
+- please switch to [english](new_language)
+- please switch to [german](new_language)
+- please switch to [french](new_language)
+- set [english](new_language) as language
+- set [german](new_language) as language
+- set [french](new_language) as language
+- speak [english](new_language) with me
+- speak [german](new_language) with me
+- speak [french](new_language) with me
+- talk [english](new_language) to me
+- talk [german](new_language) to me
+- talk [french](new_language) to me
+- talk [english](new_language)
+- talk [german](new_language)
+- talk [french](new_language)
+
+## intent:PowerOff
+
+- thank you see you next time
+- you are released from work
+- switch off
+- we have finished the meal
+- you can turn off now
+- now turn off
+- power off
+- finished
+- you can go to sleep now
+- turn off
+- good bye
+
+## intent:GetDuration
+
+- how long do we still need
+- when is the [recipe](recipe_entity) finished
+- when is the [current step](recipe_entity) finished
+- when is the [meal](recipe_entity) finished
+- when is the [dish](recipe_entity) finished
+- how long does it take to prepare the [recipe](recipe_entity)
+- how long does it take to prepare the [current step](recipe_entity)
+- how long does it take to prepare the [meal](recipe_entity)
+- how long does it take to prepare the [dish](recipe_entity)
+- please tell me the duration of the [recipe](recipe_entity)
+- please tell me the duration of the [current step](recipe_entity)
+- please tell me the duration of the [meal](recipe_entity)
+- please tell me the duration of the [dish](recipe_entity)
+- when will you be ready with the [recipe](recipe_entity)
+- when will you be ready with the [current step](recipe_entity)
+- when will you be ready with the [meal](recipe_entity)
+- when will you be ready with the [dish](recipe_entity)
+- how long do you need for the [recipe](recipe_entity)
+- how long do you need for the [current step](recipe_entity)
+- how long do you need for the [meal](recipe_entity)
+- how long do you need for the [dish](recipe_entity)
+- when are you done with the [recipe](recipe_entity)
+- when are you done with the [current step](recipe_entity)
+- when are you done with the [meal](recipe_entity)
+- when are you done with the [dish](recipe_entity)
+- how long does the [recipe](recipe_entity) take
+- how long does the [current step](recipe_entity) take
+- how long does the [meal](recipe_entity) take
+- how long does the [dish](recipe_entity) take
+- when is the [recipe](recipe_entity) ready
+- when is the [current step](recipe_entity) ready
+- when is the [meal](recipe_entity) ready
+- when is the [dish](recipe_entity) ready
+- could you tell me the preparation time please
+- please tell me the cooking time
+- when will you be finished
+
+## intent:GetAmountOfIngredient
+
+- can you tell me how many [teaspoons](unit) of [cinnamon powder](ingredient_name) we need for the recipe
+- can you tell me how many [teaspoons](unit) of [icing sugar](ingredient_name) we need for the recipe
+- can you tell me how many [teaspoons](unit) of [powdered sugar](ingredient_name) we need for the recipe
+- can you tell me how many [teaspoons](unit) of [brown sugar](ingredient_name) we need for the recipe
+- can you tell me how many [tablespoons](unit) of [cinnamon powder](ingredient_name) we need for the recipe
+- can you tell me how many [tablespoons](unit) of [icing sugar](ingredient_name) we need for the recipe
+- can you tell me how many [tablespoons](unit) of [powdered sugar](ingredient_name) we need for the recipe
+- can you tell me how many [tablespoons](unit) of [brown sugar](ingredient_name) we need for the recipe
+- can you tell me how many [cups](unit) of [cinnamon powder](ingredient_name) we need for the recipe
+- can you tell me how many [cups](unit) of [icing sugar](ingredient_name) we need for the recipe
+- can you tell me how many [cups](unit) of [powdered sugar](ingredient_name) we need for the recipe
+- can you tell me how many [cups](unit) of [brown sugar](ingredient_name) we need for the recipe
+- can you tell me how many [ounces](unit) of [cinnamon powder](ingredient_name) we need for the recipe
+- can you tell me how many [ounces](unit) of [icing sugar](ingredient_name) we need for the recipe
+- can you tell me how many [ounces](unit) of [powdered sugar](ingredient_name) we need for the recipe
+- can you tell me how many [ounces](unit) of [brown sugar](ingredient_name) we need for the recipe
+- can you tell me how many [grams](unit) of [cinnamon powder](ingredient_name) we need for the recipe
+- can you tell me how many [grams](unit) of [icing sugar](ingredient_name) we need for the recipe
+- can you tell me how many [grams](unit) of [powdered sugar](ingredient_name) we need for the recipe
+- can you tell me how many [grams](unit) of [brown sugar](ingredient_name) we need for the recipe
+- can you tell me how many [milliliter](unit) of [milk](ingredient_name) we need for the recipe
+- can you tell me how many [milliliter](unit) of [water](ingredient_name) we need for the recipe
+- can you tell me how many [milliliter](unit) of [oil](ingredient_name) we need for the recipe
+- can you tell me how many [liter](unit) of [milk](ingredient_name) we need for the recipe
+- can you tell me how many [liter](unit) of [water](ingredient_name) we need for the recipe
+- can you tell me how many [liter](unit) of [oil](ingredient_name) we need for the recipe
+- how many [milliliter](unit) of [milk](ingredient_name) do we need
+- how many [milliliter](unit) of [water](ingredient_name) do we need
+- how many [milliliter](unit) of [oil](ingredient_name) do we need
+- how many [liter](unit) of [milk](ingredient_name) do we need
+- how many [liter](unit) of [water](ingredient_name) do we need
+- how many [liter](unit) of [oil](ingredient_name) do we need
+- how many [teaspoons](unit) of [cinnamon powder](ingredient_name) do we need
+- how many [teaspoons](unit) of [icing sugar](ingredient_name) do we need
+- how many [teaspoons](unit) of [powdered sugar](ingredient_name) do we need
+- how many [teaspoons](unit) of [brown sugar](ingredient_name) do we need
+- how many [tablespoons](unit) of [cinnamon powder](ingredient_name) do we need
+- how many [tablespoons](unit) of [icing sugar](ingredient_name) do we need
+- how many [tablespoons](unit) of [powdered sugar](ingredient_name) do we need
+- how many [tablespoons](unit) of [brown sugar](ingredient_name) do we need
+- how many [cups](unit) of [cinnamon powder](ingredient_name) do we need
+- how many [cups](unit) of [icing sugar](ingredient_name) do we need
+- how many [cups](unit) of [powdered sugar](ingredient_name) do we need
+- how many [cups](unit) of [brown sugar](ingredient_name) do we need
+- how many [ounces](unit) of [cinnamon powder](ingredient_name) do we need
+- how many [ounces](unit) of [icing sugar](ingredient_name) do we need
+- how many [ounces](unit) of [powdered sugar](ingredient_name) do we need
+- how many [ounces](unit) of [brown sugar](ingredient_name) do we need
+- how many [grams](unit) of [cinnamon powder](ingredient_name) do we need
+- how many [grams](unit) of [icing sugar](ingredient_name) do we need
+- how many [grams](unit) of [powdered sugar](ingredient_name) do we need
+- how many [grams](unit) of [brown sugar](ingredient_name) do we need
+- how much of the [milk](ingredient_name) should i reserve
+- how much of the [water](ingredient_name) should i reserve
+- how much of the [oil](ingredient_name) should i reserve
+- how much of the [lemon](ingredient_name) should i reserve
+- how much of the [eggs](ingredient_name) should i reserve
+- how much of the [egg yolk](ingredient_name) should i reserve
+- how much of the [cinnamon powder](ingredient_name) should i reserve
+- how much of the [icing sugar](ingredient_name) should i reserve
+- how much of the [powdered sugar](ingredient_name) should i reserve
+- how much of the [brown sugar](ingredient_name) should i reserve
+- what was the amount of [milk](ingredient_name)
+- what was the amount of [water](ingredient_name)
+- what was the amount of [oil](ingredient_name)
+- what was the amount of [lemon](ingredient_name)
+- what was the amount of [eggs](ingredient_name)
+- what was the amount of [egg yolk](ingredient_name)
+- what was the amount of [cinnamon powder](ingredient_name)
+- what was the amount of [icing sugar](ingredient_name)
+- what was the amount of [powdered sugar](ingredient_name)
+- what was the amount of [brown sugar](ingredient_name)
+- how much [milk](ingredient_name) should i add
+- how much [water](ingredient_name) should i add
+- how much [oil](ingredient_name) should i add
+- how much [lemon](ingredient_name) should i add
+- how much [eggs](ingredient_name) should i add
+- how much [egg yolk](ingredient_name) should i add
+- how much [cinnamon powder](ingredient_name) should i add
+- how much [icing sugar](ingredient_name) should i add
+- how much [powdered sugar](ingredient_name) should i add
+- how much [brown sugar](ingredient_name) should i add
+- how much [milk](ingredient_name) do we need
+- how much [water](ingredient_name) do we need
+- how much [oil](ingredient_name) do we need
+- how much [lemon](ingredient_name) do we need
+- how much [eggs](ingredient_name) do we need
+- how much [egg yolk](ingredient_name) do we need
+- how much [cinnamon powder](ingredient_name) do we need
+- how much [icing sugar](ingredient_name) do we need
+- how much [powdered sugar](ingredient_name) do we need
+- how much [brown sugar](ingredient_name) do we need
+
+## intent:ShowToolPicture
+
+- can you show me a picture of the tool we need now
+- which one was the [twin beater](tool) show me a picture
+- which one was the [stirrer](tool) show me a picture
+- which one was the [steamer](tool) show me a picture
+- which one was the [double whisk attachment](tool) show me a picture
+- which one was the [utility knife](tool) show me a picture
+- which one was the [cutting disc](tool) show me a picture
+- which one was the [grating disc](tool) show me a picture
+- please display a picture of the [twin beater](tool)
+- please display a picture of the [stirrer](tool)
+- please display a picture of the [steamer](tool)
+- please display a picture of the [double whisk attachment](tool)
+- please display a picture of the [utility knife](tool)
+- please display a picture of the [cutting disc](tool)
+- please display a picture of the [grating disc](tool)
+- i want to see a picture of the [twin beater](tool)
+- i want to see a picture of the [stirrer](tool)
+- i want to see a picture of the [steamer](tool)
+- i want to see a picture of the [double whisk attachment](tool)
+- i want to see a picture of the [utility knife](tool)
+- i want to see a picture of the [cutting disc](tool)
+- i want to see a picture of the [grating disc](tool)
+- show me a picture of the [twin beater](tool)
+- show me a picture of the [stirrer](tool)
+- show me a picture of the [steamer](tool)
+- show me a picture of the [double whisk attachment](tool)
+- show me a picture of the [utility knife](tool)
+- show me a picture of the [cutting disc](tool)
+- show me a picture of the [grating disc](tool)
+- show me a picture of the tool
+- how does the [twin beater](tool) look like
+- how does the [stirrer](tool) look like
+- how does the [steamer](tool) look like
+- how does the [double whisk attachment](tool) look like
+- how does the [utility knife](tool) look like
+- how does the [cutting disc](tool) look like
+- how does the [grating disc](tool) look like
+- which tool should i install
+- which tool now
+
+## intent:ResetScale
+
+- please set the scale to zero
+- set the scale to zero please
+- set scale to zero please
+- please restart the scale
+- restart the scale please
+- restart the scale
+- could you please reset the scale
+- would you reset the scale please
+- can you reset the scale
+- please reset the scale
+- reset scale
+- scale reset
+- tare the scale please
+- tare the scale
+- tare scale
+- scale tare
+
+## intent:ReactionToDisplay
+
+- i want to [add more](reaction)
+- i want to [continue](reaction)
+- i want to [go on](reaction)
+- please [add more](reaction)
+- please [continue](reaction)
+- please [go on](reaction)
+- lets [add more](reaction)
+- lets [continue](reaction)
+- lets [go on](reaction)
+- [add more](reaction) please
+- [continue](reaction) please
+- [go on](reaction) please
+
+## intent:Refuse
+
+- no
+- how about no
+- no way
+- never
+- do not do so
+- please do not do that
+- thanks but no
+- no please not
+- refuse
+- no i dont want to quit
+
+## intent:Confirm
+
+- that would be fine
+- please confirm
+- yes thats ok
+- please do so
+- okay
+- aye
+- yea sure
+- sure
+- certainly
+- agreed
+- i confirm
+- absolutely
+- u huh
+- true
+- confirm
+- yes
+
+## intent:RequestFeedback
+
+- inform me if there is [enough milk](feedback_topic)
+- should i add more milk
+- is it [enough milk](feedback_topic)
+- what can i do when the [chocolate doesnt melt](feedback_topic)
+- what to do if the [water does not boil](feedback_topic)
+- what to do if the food gets [too dry](feedback_topic)
+- what to do if the [dough sticks](feedback_topic)
+- what should i do when the [milk is boiling](feedback_topic)
+- what can i do when the [food is burnt](feedback_topic)
+- what can i do if the [sauce does not become thinner](feedback_topic)
+- what do i do now
+- what should i do now
+- am i doing it right
+- what about feedback
+- how to proceed
+
+## intent:StartProcess
+
+- start the [chopping](process_name) process
+- start the [rasping](process_name) process
+- start the [slicing](process_name) process
+- start the [mixing](process_name) process
+- start the [kneading](process_name) process
+- start the [pureeing](process_name) process
+- start the [tossing](process_name) process
+- start the [whipping](process_name) process
+- start the [fermenting](process_name) process
+- start the [melting](process_name) process
+- start the [caramelizing](process_name) process
+- start the [cooling](process_name) process
+- start the [warming](process_name) process
+- start the [boiling](process_name) process
+- start the [poaching](process_name) process
+- start the [simmering](process_name) process
+- start the [soaking](process_name) process
+- start the [steaming](process_name) process
+- start the [slow cooking](process_name) process
+- start the [braising](process_name) process
+- start the [roasting](process_name) process
+- start [chopping](process_name) please
+- start [rasping](process_name) please
+- start [slicing](process_name) please
+- start [mixing](process_name) please
+- start [kneading](process_name) please
+- start [pureeing](process_name) please
+- start [tossing](process_name) please
+- start [whipping](process_name) please
+- start [fermenting](process_name) please
+- start [melting](process_name) please
+- start [caramelizing](process_name) please
+- start [cooling](process_name) please
+- start [warming](process_name) please
+- start [boiling](process_name) please
+- start [poaching](process_name) please
+- start [simmering](process_name) please
+- start [soaking](process_name) please
+- start [steaming](process_name) please
+- start [slow cooking](process_name) please
+- start [braising](process_name) please
+- start [roasting](process_name) please
+- please start [chopping](process_name)
+- please start [rasping](process_name)
+- please start [slicing](process_name)
+- please start [mixing](process_name)
+- please start [kneading](process_name)
+- please start [pureeing](process_name)
+- please start [tossing](process_name)
+- please start [whipping](process_name)
+- please start [fermenting](process_name)
+- please start [melting](process_name)
+- please start [caramelizing](process_name)
+- please start [cooling](process_name)
+- please start [warming](process_name)
+- please start [boiling](process_name)
+- please start [poaching](process_name)
+- please start [simmering](process_name)
+- please start [soaking](process_name)
+- please start [steaming](process_name)
+- please start [slow cooking](process_name)
+- please start [braising](process_name)
+- please start [roasting](process_name)
+- start with [chopping](process_name)
+- start with [rasping](process_name)
+- start with [slicing](process_name)
+- start with [mixing](process_name)
+- start with [kneading](process_name)
+- start with [pureeing](process_name)
+- start with [tossing](process_name)
+- start with [whipping](process_name)
+- start with [fermenting](process_name)
+- start with [melting](process_name)
+- start with [caramelizing](process_name)
+- start with [cooling](process_name)
+- start with [warming](process_name)
+- start with [boiling](process_name)
+- start with [poaching](process_name)
+- start with [simmering](process_name)
+- start with [soaking](process_name)
+- start with [steaming](process_name)
+- start with [slow cooking](process_name)
+- start with [braising](process_name)
+- start with [roasting](process_name)
+- could you start [chopping](process_name)
+- could you start [rasping](process_name)
+- could you start [slicing](process_name)
+- could you start [mixing](process_name)
+- could you start [kneading](process_name)
+- could you start [pureeing](process_name)
+- could you start [tossing](process_name)
+- could you start [whipping](process_name)
+- could you start [fermenting](process_name)
+- could you start [melting](process_name)
+- could you start [caramelizing](process_name)
+- could you start [cooling](process_name)
+- could you start [warming](process_name)
+- could you start [boiling](process_name)
+- could you start [poaching](process_name)
+- could you start [simmering](process_name)
+- could you start [soaking](process_name)
+- could you start [steaming](process_name)
+- could you start [slow cooking](process_name)
+- could you start [braising](process_name)
+- could you start [roasting](process_name)
+- initiate the process please
+- can you initiate [chopping](process_name)
+- can you initiate [rasping](process_name)
+- can you initiate [slicing](process_name)
+- can you initiate [mixing](process_name)
+- can you initiate [kneading](process_name)
+- can you initiate [pureeing](process_name)
+- can you initiate [tossing](process_name)
+- can you initiate [whipping](process_name)
+- can you initiate [fermenting](process_name)
+- can you initiate [melting](process_name)
+- can you initiate [caramelizing](process_name)
+- can you initiate [cooling](process_name)
+- can you initiate [warming](process_name)
+- can you initiate [boiling](process_name)
+- can you initiate [poaching](process_name)
+- can you initiate [simmering](process_name)
+- can you initiate [soaking](process_name)
+- can you initiate [steaming](process_name)
+- can you initiate [slow cooking](process_name)
+- can you initiate [braising](process_name)
+- can you initiate [roasting](process_name)
+- please start
+- start now
+- please begin right now
+- start it please
+- begin with [chopping](process_name)
+- begin with [rasping](process_name)
+- begin with [slicing](process_name)
+- begin with [mixing](process_name)
+- begin with [kneading](process_name)
+- begin with [pureeing](process_name)
+- begin with [tossing](process_name)
+- begin with [whipping](process_name)
+- begin with [fermenting](process_name)
+- begin with [melting](process_name)
+- begin with [caramelizing](process_name)
+- begin with [cooling](process_name)
+- begin with [warming](process_name)
+- begin with [boiling](process_name)
+- begin with [poaching](process_name)
+- begin with [simmering](process_name)
+- begin with [soaking](process_name)
+- begin with [steaming](process_name)
+- begin with [slow cooking](process_name)
+- begin with [braising](process_name)
+- begin with [roasting](process_name)
+- start working
+- start please
+- lets start
+- lets go
+- start
+
+## intent:StopProcess
+
+- you burned the food please stop
+- what are you doing please stop
+- stop with [chopping](process_name)
+- stop with [rasping](process_name)
+- stop with [slicing](process_name)
+- stop with [mixing](process_name)
+- stop with [kneading](process_name)
+- stop with [pureeing](process_name)
+- stop with [tossing](process_name)
+- stop with [whipping](process_name)
+- stop with [fermenting](process_name)
+- stop with [melting](process_name)
+- stop with [caramelizing](process_name)
+- stop with [cooling](process_name)
+- stop with [warming](process_name)
+- stop with [boiling](process_name)
+- stop with [poaching](process_name)
+- stop with [simmering](process_name)
+- stop with [soaking](process_name)
+- stop with [steaming](process_name)
+- stop with [slow cooking](process_name)
+- stop with [braising](process_name)
+- stop with [roasting](process_name)
+- please stop [chopping](process_name)
+- please stop [rasping](process_name)
+- please stop [slicing](process_name)
+- please stop [mixing](process_name)
+- please stop [kneading](process_name)
+- please stop [pureeing](process_name)
+- please stop [tossing](process_name)
+- please stop [whipping](process_name)
+- please stop [fermenting](process_name)
+- please stop [melting](process_name)
+- please stop [caramelizing](process_name)
+- please stop [cooling](process_name)
+- please stop [warming](process_name)
+- please stop [boiling](process_name)
+- please stop [poaching](process_name)
+- please stop [simmering](process_name)
+- please stop [soaking](process_name)
+- please stop [steaming](process_name)
+- please stop [slow cooking](process_name)
+- please stop [braising](process_name)
+- please stop [roasting](process_name)
+- stop [chopping](process_name) please
+- stop [rasping](process_name) please
+- stop [slicing](process_name) please
+- stop [mixing](process_name) please
+- stop [kneading](process_name) please
+- stop [pureeing](process_name) please
+- stop [tossing](process_name) please
+- stop [whipping](process_name) please
+- stop [fermenting](process_name) please
+- stop [melting](process_name) please
+- stop [caramelizing](process_name) please
+- stop [cooling](process_name) please
+- stop [warming](process_name) please
+- stop [boiling](process_name) please
+- stop [poaching](process_name) please
+- stop [simmering](process_name) please
+- stop [soaking](process_name) please
+- stop [steaming](process_name) please
+- stop [slow cooking](process_name) please
+- stop [braising](process_name) please
+- stop [roasting](process_name) please
+- stop [chopping](process_name)
+- stop [rasping](process_name)
+- stop [slicing](process_name)
+- stop [mixing](process_name)
+- stop [kneading](process_name)
+- stop [pureeing](process_name)
+- stop [tossing](process_name)
+- stop [whipping](process_name)
+- stop [fermenting](process_name)
+- stop [melting](process_name)
+- stop [caramelizing](process_name)
+- stop [cooling](process_name)
+- stop [warming](process_name)
+- stop [boiling](process_name)
+- stop [poaching](process_name)
+- stop [simmering](process_name)
+- stop [soaking](process_name)
+- stop [steaming](process_name)
+- stop [slow cooking](process_name)
+- stop [braising](process_name)
+- stop [roasting](process_name)
+- abort [chopping](process_name)
+- abort [rasping](process_name)
+- abort [slicing](process_name)
+- abort [mixing](process_name)
+- abort [kneading](process_name)
+- abort [pureeing](process_name)
+- abort [tossing](process_name)
+- abort [whipping](process_name)
+- abort [fermenting](process_name)
+- abort [melting](process_name)
+- abort [caramelizing](process_name)
+- abort [cooling](process_name)
+- abort [warming](process_name)
+- abort [boiling](process_name)
+- abort [poaching](process_name)
+- abort [simmering](process_name)
+- abort [soaking](process_name)
+- abort [steaming](process_name)
+- abort [slow cooking](process_name)
+- abort [braising](process_name)
+- abort [roasting](process_name)
+- can you abort please
+- terminate the process
+- break off the process
+- stop you are burning the food
+- immediately stop doing this
+- stop this immediately
+- stop it immediately
+- stop it now
+- please stop
+- stop now
+- quit the process
+- stop
+
+## intent:IncreaseSoundvolume
+
+- please speak up i can't understand you
+- could you speak up a little bit
+- speak up a little bit
+- could you please speak up a little bit
+- can you please speak up a little bit
+- increase the sound volume please
+- please increase the sound volume
+- increase the sound volume
+- raise the volume please
+- please raise the volume
+- please speak louder
+- i can't hear you
+- raise the volume
+- increase volume
+- raise volume
+- i can not understand you you speak too softly
+- you speak not loud enough
+- you speak too quietly
+- you speak too softly
+- raise the volume of your voice
+- louder please
+- adjust your voice i can not understand you
+
+## intent:DecreaseSoundvolume
+
+- please speak a little quieter
+- you are talking too loud
+- speak a little quieter
+- speak a bit quieter
+- you speak too loud
+- don't shout at me
+- could you please keep your voice down
+- would you keep your voice down
+- can you keep your voice down please
+- you could also speak a little softer
+- could you speak up a little bit please
+- can you speak up a little bit please
+- can we keep it down a little
+- decrease the sound volume please
+- decrease the sound volume
+- lower the volume please
+- please lower your voice
+- please speak more quietly
+- a little less volume please
+- more quietly please
+- your voice keep it down
+- lower your voice
+- lower the volume

@@ -4,7 +4,7 @@ WORKDIR /src/app
 COPY . /src/app
 RUN npm install
 EXPOSE 5000 35729
-CMD ["npm", "run", "build"]
+CMD ["npm", "run", "prod-build-start"]
 
 FROM prod as dev
 CMD ["npm", "run", "dev"]

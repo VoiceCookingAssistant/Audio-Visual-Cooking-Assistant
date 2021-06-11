@@ -4,20 +4,15 @@ services:
     build:
       context: ./frontend
       target: prod
+    image: cooking-assistant-frontend:prod
     ports:
       - '5000:5000'
-      - '35729:35729'
     restart: always
   node-server:
     build:
       context: ./server
       target: prod
+    image: cooking-assistant-server:prod
     ports:
       - '3000:3000'
     restart: always
-    networks:
-      - rhasspy_network_external
-
-networks:
-  rhasspy_network_external:
-    external: true

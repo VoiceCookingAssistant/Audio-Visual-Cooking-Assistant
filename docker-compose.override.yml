@@ -4,6 +4,7 @@ services:
     build:
       context: ./frontend
       target: dev
+    image: cooking-assistant-frontend:dev
     ports:
       - '5000:5000'
       - '35729:35729'
@@ -14,6 +15,7 @@ services:
     build:
       context: ./server
       target: dev
+    image: cooking-assistant-server:dev
     ports:
       - '3000:3000'
     volumes:
