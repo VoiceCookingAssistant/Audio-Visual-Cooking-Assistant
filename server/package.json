@@ -5,7 +5,14 @@
   "main": "index.js",
   "babel": {
     "presets": [
-      "@babel/preset-env"
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
     ]
   },
   "scripts": {
@@ -30,7 +37,6 @@
   "dependencies": {
     "@babel/cli": "^7.14.5",
     "@babel/core": "^7.14.5",
-    "@babel/plugin-transform-runtime": "^7.14.5",
     "@babel/preset-env": "^7.14.5",
     "axios": "^0.21.1",
     "cors": "^2.8.5",
@@ -39,7 +45,6 @@
     "mqtt": "^4.2.6",
     "node-wav": "0.0.2",
     "npm-run-all": "^4.1.5",
-    "regenerator-runtime": "^0.13.7",
     "socket.io": "^4.0.1",
     "socket.io-stream": "^0.9.1"
   }

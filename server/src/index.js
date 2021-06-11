@@ -1,5 +1,4 @@
 import dotenv from 'dotenv';
-import 'regenerator-runtime/runtime';
 const path = require('path');
 dotenv.config({
   path: path.resolve(
