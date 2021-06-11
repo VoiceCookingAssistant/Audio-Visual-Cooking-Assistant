@@ -30,6 +30,15 @@ cd server
 npm install
 ```
 
+**Start with docker** (_Recommended_):
+
+```bash
+docker-compose build
+docker-compose up
+```
+
+Navigate to [localhost:5000](http://localhost:5000). You see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
+
 **Start without docker** (Not recommended):
 
 ```bash
@@ -45,16 +54,9 @@ npm run start-dev
 Navigate to [localhost:5000](http://localhost:5000).
 You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
 
-**Start with docker** (:_Recommended_)
-
-```bash
-docker-compose build
-docker-compose up
-```
-
-Navigate to [localhost:5000](http://localhost:5000). You see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
-
 ## Connect Application with local Rhasspy Environment
+
+---
 
 To run a local Rhasspy Envrionemnt you need to have docker and docker-compose installed.
 
@@ -73,12 +75,6 @@ The first time you have to adjust the Rhasspy settings in the environemnt:
 4. Click on the "Sentences-Menu-Icon" in the left Menu Bar
 5. Copy the file rhasspy/template.ini from this repo in it and click "Save Sentences"
 6. Click "Okay" in the Retrain Rhasspy Alert
-
-## Recommendations
-
----
-
-If you're using [Visual Studio Code](https://code.visualstudio.com/) we recommend installing the official extension [Svelte for VS Code](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode). If you are using other editors you may need to install a plugin in order to get syntax highlighting and intellisense.
 
 ## Production
 
@@ -100,3 +96,9 @@ This version expects an .env file in root directory with follwing content:
 ```
 
 Navigate to [localhost:5000](http://localhost:5000). You see your app running.
+
+## Recommendations
+
+---
+
+If you're using [Visual Studio Code](https://code.visualstudio.com/) we recommend installing the official extension [Svelte for VS Code](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode). If you are using other editors you may need to install a plugin in order to get syntax highlighting and intellisense.
