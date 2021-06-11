@@ -26,4 +26,5 @@ services:
 
 networks:
   rhasspy_network_external:
-    external: true
+    external: false
+    name: rhasspy_network_external

@@ -47,7 +47,6 @@
   });
 
   socket.on('intent', (data) => {
-    console.log('SOCKET INTENT', data);
     processIntent(data);
   });
 
