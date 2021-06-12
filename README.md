@@ -50,8 +50,23 @@
 
 ## About The Project
 
-TBD
+This prototype visualizes an example of a fully implemented interface within a multi-function food processor.It is based on the user-flow shown in the following figure. 
+<p align="center">
+  <img src="https://ik.imagekit.io/CookingAssistant/user_flow3_TcIC5VLlfnZ.png" alt="User flow" width="500" />
+</p>
 
+
+Although our prototype does not cover all functions that a real multi-function food processor can offer, it provides a generic solution to research examples for multimodal interaction throughvoice & touch interaction. 
+
+The prototype is adaptable to different insights and recommendations, allowing for further research. The software architecture is seen in the following figure.
+<p align="center">
+  <img src="https://ik.imagekit.io/CookingAssistant/prototype_architecture_G_w9xClfb.png" alt="Architecture" width="500" />
+</p>
+
+
+This prototype is meant to run locally or on a server like AWS. To run it locally please refer to the section <a href="#development">Development</a>.
+
+_Disclaimer:_
 If you use the code or dataset please cite our work:
 VoiceCookingAssistant. 2021. Audio-Visual-Cooking-Assistant. https://github.com/VoiceCookingAssistant/Audio-Visual-Cooking-Assistant
 
@@ -67,7 +82,7 @@ Inititally the frontend application is built with svelte and has a node server w
 
 ### Prerequisites
 
-You need to have node and npm installed. To run it on your machine we propose to have docker and docker-compose installed.
+You need to have node and npm installed. To run it on your machine we propose to have docker and docker-compose installed. 
 
 <br />
 
@@ -128,7 +143,7 @@ docker-compose up
 
 Navigate to [localhost:12101/](http://localhost:12101). You see the environment running&nbsp;
 
-The first time you have to adjust the Rhasspy settings in the environemnt:
+The first time you have to adjust the Rhasspy settings in the UI environment:
 
 1. Click the Home Button
 2. Go to Advanced
@@ -136,6 +151,8 @@ The first time you have to adjust the Rhasspy settings in the environemnt:
 4. Click on the "Sentences-Menu-Icon" in the left Menu Bar
 5. Copy the file rhasspy/template.ini from this repo in it and click "Save Sentences"
 6. Click "Okay" in the Retrain Rhasspy Alert
+
+Now you can test the prototype. For further adaption of the Rhasspy environment please refer to the official doumentation of <a href="https://rhasspy.readthedocs.io/en/latest/">Rhasspy</a>.
    <br />
    <br />
 
@@ -163,6 +180,8 @@ Navigate to [localhost:5000](http://localhost:5000). You see your app running.
 ## Recommendations
 
 If you're using [Visual Studio Code](https://code.visualstudio.com/) we recommend installing the official extension [Svelte for VS Code](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode). If you are using other editors you may need to install a plugin in order to get syntax highlighting and intellisense.
+
+This prototype was tested in the Browser <a href="https://www.google.com/chrome/"> Google Chrome </a>.
 
 ## License
 
