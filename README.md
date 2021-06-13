@@ -40,7 +40,8 @@
       </ul>
     </li>
     <li><a href="#development">Development</a></li>
-    <li><a href="#production">Roadmap</a></li>
+    <li><a href="#production">Production</a></li>
+    <li><a href="#data">Data for Spoken Language Understanding</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#ecrommendations">Recommendations</a></li>
   </ol>
@@ -68,7 +69,7 @@ This prototype is meant to run locally or on a server like AWS. To run it locall
 
 _Disclaimer:_
 If you use the code or dataset please cite our work:
-VoiceCookingAssistant. 2021. Audio-Visual-Cooking-Assistant. https://github.com/VoiceCookingAssistant/Audio-Visual-Cooking-Assistant
+> VoiceCookingAssistant. 2021. Audio-Visual-Cooking-Assistant. https://github.com/VoiceCookingAssistant/Audio-Visual-Cooking-Assistant
 
 ### Built With
 
@@ -150,6 +151,7 @@ The first time you have to adjust the Rhasspy settings in the UI environment:
 3. Copy the file rhasspy/profile.json from this repo in it and click "Save Profile".
 4. Click on the "Sentences-Menu-Icon" in the left Menu Bar
 5. Copy the file rhasspy/template.ini from this repo in it and click "Save Sentences"
+    > Dataset in the file rhasspy/template.ini is provided under a [“CC BY 4.0”](https://creativecommons.org/licenses/by/4.0/).
 6. Click "Okay" in the Retrain Rhasspy Alert
 
 Now you can test the prototype. For further adaption of the Rhasspy environment please refer to the official doumentation of <a href="https://rhasspy.readthedocs.io/en/latest/">Rhasspy</a>.
@@ -177,6 +179,14 @@ This version expects an .env file in root directory with follwing content:
 
 Navigate to [localhost:5000](http://localhost:5000). You see your app running.
 
+## Dataset for Spoken Language Understanding
+
+You can apply our large amounts of in-domain dataset for your spoken language understanding research.
+- Training Dataset (1964 queries with 10724 running words): rhasspy/NLU/trainset.md
+- Test Dataset (839 queries with 4507 running words): rhasspy/NLU/testset.md
+
+> Training Dataset and Testing Dataset are provided under a [“CC BY 4.0”](https://creativecommons.org/licenses/by/4.0/).
+
 ## Recommendations
 
 If you're using [Visual Studio Code](https://code.visualstudio.com/) we recommend installing the official extension [Svelte for VS Code](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode). If you are using other editors you may need to install a plugin in order to get syntax highlighting and intellisense.
@@ -186,4 +196,3 @@ This prototype was tested in the Browser <a href="https://www.google.com/chrome/
 ## License
 
 Distributed under the Apache 2.0 License. See `LICENSE` for more information. <br />
-Training Dataset(rhasspy/NLU/trainset.md) and Testing Dataset(rhasspy/NLU/testset.md) are provided under a [“CC BY 4.0”](https://creativecommons.org/licenses/by/4.0/).
