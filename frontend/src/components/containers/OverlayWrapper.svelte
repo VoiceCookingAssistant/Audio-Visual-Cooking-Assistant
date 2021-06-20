@@ -3,6 +3,24 @@
   export let clickableOverlay;
   export let id;
 
+  let tranistionTime = 0;
+  let progressbar = false;
+  $: if (clickableOverlay.transitionTime) {
+    tranistionTime = clickableOverlay.transitionTime;
+    setTimeout(() => {
+      progressbar = true;
+    }, 100);
+
+    setTimeout(() => {
+      progressbar = false;
+      handleClickOnScreen({
+        screenId: id,
+        actionId: clickableOverlay.continue.actionId,
+        func: 'doneModal',
+      });
+    }, tranistionTime * 1000);
+  }
+
   const dispatch = createEventDispatcher();
   const handleClickOnScreen = ({ screenId, actionId, func }) => {
     dispatch('handleClickOnScreen', { screenId, actionId, func });
@@ -137,7 +155,7 @@
     on:click={() =>
       handleClickOnScreen({
         screenId: id,
-        func: 'cancelRecipe',
+        func: 'closeModal',
       })}
   />
 {:else if clickableOverlay && clickableOverlay.overlay === 'modalOverlay2'}
@@ -158,6 +176,30 @@
         actionId: clickableOverlay.add.actionId,
         func: 'addOrContinue',
       })}
+  />
+{:else if clickableOverlay && clickableOverlay.overlay === 'modalOverlay3'}
+  <div
+    class="modal-back-btn"
+    on:click={() =>
+      handleClickOnScreen({
+        screenId: id,
+        func: 'closeModal',
+      })}
+  />
+  <div
+    class="modal-letsgo-btn"
+    on:click={() =>
+      handleClickOnScreen({
+        screenId: id,
+        actionId: clickableOverlay.continue.actionId,
+        func: 'nextModal',
+      })}
+  />
+{:else if clickableOverlay && clickableOverlay.overlay === 'modalOverlay4'}
+  <div
+    class="progressbar"
+    class:transition={progressbar}
+    style="--transition: {tranistionTime}s"
   />
 {/if}
 
@@ -297,5 +339,31 @@
     width: 20%;
     border-radius: 13%;
     cursor: pointer;
+  }
+  .modal-letsgo-btn {
+    position: absolute;
+    bottom: 21%;
+    z-index: 100;
+    height: 9%;
+    left: 50%;
+    width: 20%;
+    transform: translateX(-50%);
+    border-radius: 13%;
+    cursor: pointer;
+  }
+
+  .progressbar {
+    position: absolute;
+    bottom: 39%;
+    z-index: 100;
+    height: 3%;
+    left: 30.5%;
+    width: 3%;
+    border-radius: 20px;
+    background-color: black;
+    transition: width var(--transition) linear;
+    &.transition {
+      width: 41.5%;
+    }
   }
 </style>

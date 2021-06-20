@@ -102,11 +102,13 @@
           $images = $images;
           topic = 'hermes/dialogueManager/continueSession';
           text = 'Do you really want to cancel the recipe?';
-          intentFilter = ['CancelRecipe'];
+          intentFilter = activeModal.intentFilter;
+          const sendIntentNotRecognized = true;
           data = {
             sessionId,
             text,
             intentFilter,
+            sendIntentNotRecognized,
           };
 
           dispatch('dialogueManager', {

@@ -51,6 +51,22 @@ mqtt_client.subscribe('hermes/intent/#', (err) => {
   }
 });
 
+mqtt_client.subscribe('hermes/dialogueManager/intentNotRecognized', (err) => {
+  if (!err) {
+    console.log('Subscribe to MQTT intentNotRecognized');
+  } else {
+    console.log(err);
+  }
+});
+
+mqtt_client.subscribe('hermes/dialogueManager/sessionStarted', (err) => {
+  if (!err) {
+    console.log('Subscribe to session started');
+  } else {
+    console.log(err);
+  }
+});
+
 // Subscribe 'get audio buffer from tts'
 mqtt_client.subscribe('hermes/audioServer/default/playBytes/#', (err) => {
   if (!err) {
@@ -70,10 +86,9 @@ mqtt_client.subscribe('hermes/dialogueManager/sessionEnded', (err) => {
 
 // When subscribed topic is published  - you get message here
 mqtt_client.on('message', (topic, message) => {
-  console.log('topic: ' + topic);
-
   if (topic.indexOf('hermes/intent/') === 0) {
     let intentJSON = JSON.parse(message);
+    io.emit('voiceAnimation', false);
     io.emit('intent', intentJSON);
   } else if (topic.indexOf('hermes/audioServer/default/playBytes/') == 0) {
     // get audio buffer from tts
@@ -83,21 +98,12 @@ mqtt_client.on('message', (topic, message) => {
         console.log('audio write success');
       }
     });
+  } else if (topic.indexOf('hermes/dialogueManager/sessionStarted') === 0) {
+    io.emit('voiceAnimation', true);
+  } else if (topic.indexOf('hermes/dialogueManager/intentNotRecognized') == 0) {
+    io.emit('intentNotRecognized');
   } else if (topic.indexOf('hermes/dialogueManager/sessionEnded') == 0) {
-    let intentJSON = JSON.parse(message);
-    let reason = intentJSON.termination.reason;
-    if (reason.indexOf('intentNotRecognized') === 0) {
-      const response = `I didn't get that. Could you try again?`;
-      sendTTS(response);
-
-      // wake up manually
-      const msg =
-        '{"modelId": "default", "modelVersion": "", "modelType": "personal", "currentSensitivity": 1.0, "siteId": "default", "sessionId": null, "sendAudioCaptured": null, "lang": null, "customEntities": null}';
-      setTimeout(
-        () => mqtt_client.publish('hermes/hotword/default/detected', msg),
-        3000
-      );
-    }
+    io.emit('voiceAnimation', false);
   }
 });
 
@@ -137,7 +143,6 @@ io.on('connection', (client) => {
 const mqttPublish = (msg) => {
   const topic = msg.topic;
   const data = JSON.stringify(msg.data);
-
   mqtt_client.publish(topic, data);
 };
 
@@ -149,7 +154,7 @@ const sendTTS = (msg) => {
   axios
     .post(host_path, msg)
     .then((res) => {
-      console.log(`SEND TEXT statusCode: ${res.statusCode}`);
+      console.log(`Send TTS`);
     })
     .catch((error) => {
       console.error(error);

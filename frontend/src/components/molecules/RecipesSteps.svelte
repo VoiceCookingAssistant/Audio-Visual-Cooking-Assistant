@@ -1,7 +1,7 @@
 <script>
   import { createEventDispatcher, onMount } from 'svelte';
   import Image from 'components/molecules/Image.svelte';
-  import { images, currRecipe, currRecipeStep } from 'utils/store.js';
+  import { images, currRecipe, currRecipeStep, filter } from 'utils/store.js';
   import { setActiveToFalse } from 'utils/util.js';
   export let url;
   export let id;
@@ -34,10 +34,13 @@
             const topic = 'hermes/dialogueManager/continueSession';
             const intentFilter = activeObj.intentFilter;
             const text = activeObj.startTTS;
+            $filter = intentFilter;
+            const sendIntentNotRecognized = true;
             const data = {
               sessionId,
               text,
               intentFilter,
+              sendIntentNotRecognized,
             };
 
             dispatch('dialogueManager', {
@@ -70,7 +73,9 @@
     },
     scale({ screenId, actionId, voice }) {
       setActiveToFalse($images, screenId);
-      let activeObj = $currRecipe.steps.find((obj) => obj.id === actionId);
+      let audio = new Audio('assets/VoiceCommand_CC.mp3');
+      audio.play();
+      let activeObj = $images.extras.find((obj) => obj.id === actionId);
       activeObj.active = true;
       $images = $images;
     },
@@ -93,11 +98,14 @@
         if (!slots) {
           topic = 'hermes/dialogueManager/continueSession';
           text = 'Do you really want to cancel the recipe?';
-          intentFilter = ['CancelRecipe'];
+          intentFilter = activeModal.intentFilter;
+          $filter = intentFilter;
+          const sendIntentNotRecognized = true;
           data = {
             sessionId,
             text,
             intentFilter,
+            sendIntentNotRecognized,
           };
 
           dispatch('dialogueManager', {

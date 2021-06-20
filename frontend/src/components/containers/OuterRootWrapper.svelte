@@ -74,6 +74,15 @@
             voice: true,
           });
           break;
+        case 'ReactMixingDisplay':
+          overlayFunctions.nextModal({
+            screenId: id,
+            sessionId,
+            actionId: clickableOverlay.continue.actionId,
+            slots,
+            voice: true,
+          });
+          break;
         case 'GetDuration':
           overlayFunctions.getDuration({
             screenId: id,
@@ -154,10 +163,20 @@
           overlayFunctions.scale({ screenId, actionId, voice: false });
         }
         break;
+      case 'closeModal':
+        overlayFunctions.closeModal({ screenId, actionId, voice: false });
+        break;
       case 'addOrContinue':
         overlayFunctions.addOrContinue({ screenId, actionId, voice: false });
+        break;
+      case 'nextModal':
+        overlayFunctions.nextModal({ screenId, actionId, voice: false });
+        break;
+      case 'doneModal':
+        overlayFunctions.doneModal({ screenId, actionId, voice: false });
+        break;
       default:
-        console.log('No function');
+        console.warn('No function');
         break;
     }
   };

@@ -1,12 +1,25 @@
 <script>
-  import { createEventDispatcher } from 'svelte';
+  import { createEventDispatcher, onMount, onDestroy } from 'svelte';
   import Image from 'components/molecules/Image.svelte';
-  import { images, currRecipe, currRecipeStep } from 'utils/store.js';
+  import {
+    images,
+    currRecipe,
+    currRecipeStep,
+    modalOpen,
+  } from 'utils/store.js';
   import { setActiveToFalse } from 'utils/util.js';
   export let url;
   export let id;
 
   const dispatch = createEventDispatcher();
+
+  onMount(() => {
+    $modalOpen = true;
+  });
+
+  onDestroy(() => {
+    $modalOpen = false;
+  });
 
   // Make functions available in parent
   export const overlayFunctions = {
@@ -17,12 +30,11 @@
         let data;
 
         if (!slots) {
-          console.log('NOT RECOGNISED');
+          console.warn('Command not recognized');
         } else {
           let answer = slots[0].value.value.toLowerCase();
           topic = 'hermes/dialogueManager/endSession';
           setActiveToFalse($images, screenId);
-          console.log(answer);
           if (answer.includes('yes')) {
             text =
               'Okay I canceled the recipe and you are now back on the menu.';
@@ -52,30 +64,32 @@
         }
       } else {
         setActiveToFalse($images, screenId);
-        if (actionId) {
-          $images.home.active = true;
-          currRecipeStep.reset();
-          currRecipe.set(null);
-        } else {
-          if ($currRecipeStep > 0) {
-            $currRecipe.steps[$currRecipeStep - 1].active = true;
-          } else {
-            $currRecipe.overview[0].active = true;
-          }
-        }
+        $images.home.active = true;
+        currRecipeStep.reset();
+        currRecipe.set(null);
         $images = $images;
       }
+    },
+    closeModal({ screenId }) {
+      setActiveToFalse($images, screenId);
+      if ($currRecipeStep > 0) {
+        $currRecipe.steps[$currRecipeStep - 1].active = true;
+      } else {
+        $currRecipe.overview[0].active = true;
+      }
+      $images = $images;
     },
     addOrContinue({ screenId, actionId, voice, slots, sessionId }) {
       setActiveToFalse($images, screenId);
       if (voice) {
         if (!slots) {
-          console.log('NOT RECOGNIZED');
+          console.warn('slot not recognized');
           return;
         }
         const topic = 'hermes/dialogueManager/endSession';
         let answer = slots[0].value.value;
         let text;
+        let activeObj;
         switch (answer) {
           case 'add':
           case 'add more':
@@ -86,7 +100,7 @@
           case 'go on':
           case 'continue':
             currRecipeStep.increment();
-            let activeObj = $currRecipe.steps[$currRecipeStep - 1];
+            activeObj = $currRecipe.steps[$currRecipeStep - 1];
             activeObj.active = true;
             text = `Ok, you are now on step ${$currRecipeStep}. ${
               activeObj.startTTS ? activeObj.startTTS : ''
@@ -109,11 +123,62 @@
         $images = $images;
       } else {
         let activeObj = $currRecipe.steps.find((obj) => obj.id === actionId);
-        let idx = $currRecipe.steps.findIndex((obj) => obj.id === actionId);
-        idx + 1 !== $currRecipeStep ? currRecipeStep.increment() : null;
+        if (activeObj) {
+          currRecipeStep.increment();
+        } else {
+          activeObj = $images.extras.find((obj) => obj.id === actionId);
+        }
         activeObj.active = true;
         $images = $images;
       }
+    },
+    nextModal({ screenId, actionId, voice, slots, sessionId }) {
+      setActiveToFalse($images, screenId);
+      if (voice) {
+        if (!slots) {
+          console.warn('slot not recognized');
+          return;
+        }
+        const topic = 'hermes/dialogueManager/endSession';
+        let answer = slots[0].value.value;
+        let text;
+        switch (answer) {
+          case 'yes':
+            text = "Okay I'm starting the process";
+            let activeObj = $images.modals.find((obj) => obj.id === actionId);
+            activeObj.active = true;
+            break;
+          case 'no':
+            $currRecipe.steps[$currRecipeStep - 1].active = true;
+            text = `Okay you are back on step ${$currRecipeStep}`;
+            break;
+          default:
+            console.warn('No correct slot');
+            break;
+        }
+        const data = {
+          sessionId,
+          text,
+        };
+
+        dispatch('dialogueManager', {
+          topic,
+          data,
+        });
+      } else {
+        let activeObj = $images.modals.find((obj) => obj.id === actionId);
+        activeObj.active = true;
+      }
+      $images = $images;
+    },
+    doneModal({ screenId, actionId, voice, slots, sessionId }) {
+      setActiveToFalse($images, screenId);
+      let audio = new Audio('assets/VoiceCommand_CC.mp3');
+      audio.play();
+      let activeObj = $currRecipe.steps.find((obj) => obj.id === actionId);
+      currRecipeStep.increment();
+      activeObj.active = true;
+      $images = $images;
     },
   };
 </script>
