@@ -185,7 +185,6 @@ If you use or build on our work, please cite our paper related to this project:
 	title = {Audio-Visual Recipe Guidance for Smart Kitchen Devices},
 	year = 2021,
 	conference = {4th International Conference on Natural Language and Speech Processing (ICNLSP 2021)},
-	note = {"Note that all accepted papers will be published in ACL Anthology. In addition, selected papers will be published in Signals and Communication Technology (Springer), which is indexed in Scopus." - from http://icnlsp.org/icnlsp2021/},
 	publicationstatus = {Accepted},
 	month = 11,
 	author = {Kendrick, Caroline and Frohnmaier, Mariano and Georges, Munir},
