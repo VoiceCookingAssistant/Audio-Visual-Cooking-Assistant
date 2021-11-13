@@ -19,8 +19,9 @@
     <li><a href="#development">Development</a></li>
     <li><a href="#production">Production</a></li>
     <li><a href="#data">Data for Spoken Language Understanding</a></li>
+    <li><a href="#recommendations">Recommendations</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#ecrommendations">Recommendations</a></li>
+    <li><a href="#citation">Citation</a></li>
   </ol>
 </details>
 
@@ -175,3 +176,18 @@ This prototype was tested in the Browser <a href="https://www.google.com/chrome/
 ## License
 
 Distributed under the Apache 2.0 License. See `LICENSE` for more information. <br />
+
+## Citation
+If you use or build on our work, please cite our paper related to this project: 
+
+```bib
+@inproceedings { ,
+	title = {Audio-Visual Recipe Guidance for Smart Kitchen Devices},
+	year = 2021,
+	conference = {4th International Conference on Natural Language and Speech Processing (ICNLSP 2021)},
+	note = {"Note that all accepted papers will be published in ACL Anthology. In addition, selected papers will be published in Signals and Communication Technology (Springer), which is indexed in Scopus." - from http://icnlsp.org/icnlsp2021/},
+	publicationstatus = {Accepted},
+	month = 11,
+	author = {Kendrick, Caroline and Frohnmaier, Mariano and Georges, Munir},
+}
+```
