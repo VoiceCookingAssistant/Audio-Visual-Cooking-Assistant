@@ -181,11 +181,17 @@ Distributed under the Apache 2.0 License. See `LICENSE` for more information. <b
 If you use or build on our work, please cite our paper related to this project: 
 
 ```bib
-@inproceedings { ,
-	title = {Audio-Visual Recipe Guidance for Smart Kitchen Devices},
-	year = 2021,
-	conference = {4th International Conference on Natural Language and Speech Processing (ICNLSP 2021)},
-	month = 11,
-	author = {Kendrick, Caroline and Frohnmaier, Mariano and Georges, Munir},
+@inproceedings{kendrick-etal-2021-audio,
+    title = "Audio-Visual Recipe Guidance for Smart Kitchen Devices",
+    author = "Kendrick, Caroline  and
+      Frohnmaier, Mariano  and
+      Georges, Munir",
+    booktitle = "Proceedings of The Fourth International Conference on Natural Language and Speech Processing (ICNLSP 2021)",
+    month = "12--13 " # nov,
+    year = "2021",
+    address = "Trento, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.icnlsp-1.30",
+    pages = "257--261",
 }
 ```
